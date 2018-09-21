@@ -25,7 +25,7 @@
 	"body": [
 		"#!/usr/bin/env bash",
 		"",
-		"$1"
+		""
 	],
 	"description": "bash shell 脚本"
 	},
