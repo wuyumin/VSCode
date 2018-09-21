@@ -25,6 +25,11 @@
 - 扩展标识符：felixfbecker.php-intellisense
 - 作用：PHP语言插件
 
+### Docker 插件
+
+- 扩展标识符：peterjausovec.vscode-docker
+- 作用：Docker 插件
+
 
 ### Todo Tree
 
