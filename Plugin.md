@@ -6,32 +6,32 @@
 
 ### GitLens
 
-- 包名：eamodio.gitlens
+- 扩展标识符：eamodio.gitlens
 - 作用：git 增强工具
 
 ### Go语言插件
 
-- 包名：ms-vscode.go
+- 扩展标识符：ms-vscode.go
 - 作用：Go语言插件
 - 注：还要安装一些Go第三方包
 
 ### Python语言插件
 
-- 包名：ms-python.python
+- 扩展标识符：ms-python.python
 - 作用：Python语言插件
 
 ### PHP语言插件
 
-- 包名：felixfbecker.php-intellisense
+- 扩展标识符：felixfbecker.php-intellisense
 - 作用：PHP语言插件
 
 
 ### Todo Tree
 
-- 包名：Gruntfuggly.todo-tree
+- 扩展标识符：Gruntfuggly.todo-tree
 - 作用：TODO 插件
 
 ### vscode-proto3
 
-- 包名：zxh404.vscode-proto3
+- 扩展标识符：zxh404.vscode-proto3
 - 作用：Protobuf 3 插件
