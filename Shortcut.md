@@ -16,9 +16,13 @@
 
 `Ctrl+Shift+Enter`在上面插入行
 
-`Home`转到行首
+`Home`跳转到行首
 
-`End`转到行首
+`End`跳转到行尾
+
+`Ctrl + Home`跳转到页首
+
+`Ctrl + End`跳转到页尾
 
 `Shift+Alt+A`切换块注释
 
