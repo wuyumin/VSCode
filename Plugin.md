@@ -27,6 +27,11 @@
 - 扩展标识符：felixfbecker.php-intellisense
 - 作用：PHP语言插件
 
+### Vetur(Vue 插件)
+
+- 扩展标识符：octref.vetur
+- 作用：Vue 插件
+
 ### Docker 插件
 
 - 扩展标识符：peterjausovec.vscode-docker
