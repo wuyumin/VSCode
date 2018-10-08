@@ -4,7 +4,7 @@
 
 <https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Downloads>
 
-默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS。
+默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。
 
 ### GitLens
 
