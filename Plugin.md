@@ -15,7 +15,8 @@
 
 - 扩展标识符：ms-vscode.go
 - 作用：Go语言插件
-- 注：还要安装一些Go第三方包
+- 注：还要安装一些Go第三方包  
+  插件参照 <https://github.com/Microsoft/vscode-go/blob/master/src/goInstallTools.ts> allTools变量
 
 ### Python语言插件
 
