@@ -1,8 +1,16 @@
 # 常用配置
 
 配置一般分为`用户设置`、`工作区设置`、`项目文件夹设置`。  
-`一般可通过菜单上的设置来调整`。  
+`一般可通过菜单上的设置来调整`。 
+
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
+```json
+    "update.channel": "none", //取消自动更新VSCode
+    "extensions.autoUpdate": false, //取消自动更新扩展
+    "extensions.autoCheckUpdates": false, //取消扩展更新检查
+    "workbench.startupEditor": "none", //编辑器启动后默认显示
+```
+
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
 ```json
 {
@@ -17,6 +25,7 @@
 	}
 }
 ```
+
 `项目文件夹设置：`项目文件夹里.vscode文件夹下的settings.json文件。
 
 ### win10系统终端 PowerShell 修改为 cmd
