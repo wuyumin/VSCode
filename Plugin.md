@@ -48,3 +48,8 @@
 
 - 扩展标识符：zxh404.vscode-proto3
 - 作用：Protobuf 3 插件
+
+### Better TOML
+
+- 扩展标识符：bungcip.better-toml
+- 作用：TOML 插件
