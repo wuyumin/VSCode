@@ -11,6 +11,11 @@
 - 扩展标识符：eamodio.gitlens
 - 作用：git 增强工具
 
+### markdownlint
+
+- 扩展标识符：davidanson.vscode-markdownlint
+- 作用：Markdown 语法检查工具
+
 ### Go语言插件
 
 - 扩展标识符：ms-vscode.go
@@ -37,7 +42,6 @@
 
 - 扩展标识符：peterjausovec.vscode-docker
 - 作用：Docker 插件
-
 
 ### Todo Tree
 
