@@ -9,6 +9,7 @@
     "extensions.autoUpdate": false, //取消自动更新扩展
     "extensions.autoCheckUpdates": false, //取消扩展更新检查
     "workbench.startupEditor": "none", //编辑器启动后默认显示
+    "editor.renderWhitespace": "all", //显示隐藏的tab和空格
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
