@@ -11,6 +11,11 @@
 - 扩展标识符：eamodio.gitlens
 - 作用：git 增强工具
 
+### Git History
+
+- 扩展标识符：donjayamanne.githistory
+- 作用：git 日志查看
+
 ### Go语言插件
 
 - 扩展标识符：ms-vscode.go
