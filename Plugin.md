@@ -28,6 +28,11 @@
 - 扩展标识符：ms-python.python
 - 作用：Python语言插件
 
+### C/C++语言插件
+
+- 扩展标识符：ms-vscode.cpptools
+- 作用：C/C++语言插件
+
 ### PHP语言插件
 
 - 扩展标识符：felixfbecker.php-intellisense
