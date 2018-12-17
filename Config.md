@@ -10,6 +10,10 @@
     "extensions.autoCheckUpdates": false, //取消扩展更新检查
     "workbench.startupEditor": "none", //编辑器启动后默认显示
     "editor.renderWhitespace": "all", //显示隐藏的tab和空格
+    //配置排除的文件和文件夹
+    "files.exclude": {
+        "**/.idea": true //排除JetBrains系列软件配置文件
+    },
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
