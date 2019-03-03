@@ -3,7 +3,9 @@
 ### 如何使用有私钥密码的ssh协议的git？
 
 1. 打开命令行工具
-2. 运行命令`start-ssh-agent`并输入私钥密码
+2. 运行SSH代理
+  - windows系统：`start-ssh-agent`并输入私钥密码
+  - 类Unix系统：`ssh-agent $SHELL` 和 `ssh-add` (路径默认值是~/.ssh/id_rsa)，输入私钥密码
 3. 运行命令`code`来启动VSCode
 
 ### 工作区的灵活使用
