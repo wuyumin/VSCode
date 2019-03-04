@@ -58,6 +58,11 @@
 - 扩展标识符：zxh404.vscode-proto3
 - 作用：Protobuf 3 插件
 
+### YAML
+
+- 扩展标识符：redhat.vscode-yaml
+- 作用：YAML 插件
+
 ### Better TOML
 
 - 扩展标识符：bungcip.better-toml
