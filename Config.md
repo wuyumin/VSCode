@@ -4,8 +4,9 @@
 `一般可通过菜单上的设置来调整`。 
 
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
+update.mode(1.32+) update.channel(1.32-)  
 ```json
-    "update.channel": "none", //取消自动更新VSCode
+    "update.mode": "none", //取消自动更新VSCode
     "extensions.autoUpdate": false, //取消自动更新扩展
     "extensions.autoCheckUpdates": false, //取消扩展更新检查
     "workbench.startupEditor": "none", //编辑器启动后默认显示
