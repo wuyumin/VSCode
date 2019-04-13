@@ -22,12 +22,12 @@ update.mode(1.32+) update.channel(1.32-)
 {
 	"folders": [
 		{
-			"path": "D:\\Projects\\PythonTest"
+			"path": "D:\\PythonProject\\PythonTest"
 		}
 	],
 	"settings": {
-		"python.pythonPath": "D:\\Projects\\venv\\.venv\\Scripts\\python.exe",
-		"terminal.integrated.shellArgs.windows": ["/k", "D:\\Projects\\venv\\.venv\\Scripts\\activate.bat"]
+		"python.pythonPath": "D:\\PythonProject\\venv\\.venv\\Scripts\\python.exe",
+		"terminal.integrated.shellArgs.windows": ["/k", "D:\\PythonProject\\venv\\.venv\\Scripts\\activate.bat"]
 	}
 }
 ```
@@ -44,13 +44,13 @@ update.mode(1.32+) update.channel(1.32-)
 
 ```json
 "settings": {
-		"python.pythonPath": "D:\\Projects\\venv\\.venv\\Scripts\\python.exe",
-		"terminal.integrated.shellArgs.windows": ["/k", "D:\\Projects\\venv\\.venv\\Scripts\\activate.bat"]
+		"python.pythonPath": "D:\\PythonProject\\venv\\.venv\\Scripts\\python.exe",
+		"terminal.integrated.shellArgs.windows": ["/k", "D:\\PythonProject\\venv\\.venv\\Scripts\\activate.bat"]
 }
 ```
 `python.pythonPath`填写 Pipenv 虚拟环境 python 二进制文件绝对路径  
 Windows系统：`terminal.integrated.shellArgs.windows`填写 Pipenv 虚拟环境启动文件绝对路径  
-Mac系统：`terminal.integrated.shellArgs.osx": ["-c", "source /data/Projects/venv/.venv/Scripts/activate"]`  
-Linux系统：`terminal.integrated.shellArgs.linux": ["-c", "source /data/Projects/venv/.venv/Scripts/activate"]`  
+Mac系统：`terminal.integrated.shellArgs.osx": ["-c", "source /data/PythonProject/venv/.venv/Scripts/activate"]`  
+Linux系统：`terminal.integrated.shellArgs.linux": ["-c", "source /data/PythonProject/venv/.venv/Scripts/activate"]`  
   
 注：Virtualenv 虚拟环境类似
