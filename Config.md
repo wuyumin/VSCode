@@ -22,7 +22,7 @@ update.mode(1.32+) update.channel(1.32-)
 {
 	"folders": [
 		{
-			"path": "D:\\PythonProject\\PythonTest"
+			"path": "E:\\PythonProject\\PythonTest"
 		}
 	],
 	"settings": {
