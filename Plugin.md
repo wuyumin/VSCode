@@ -58,6 +58,11 @@
 - 扩展标识符：zxh404.vscode-proto3
 - 作用：Protobuf 3 插件
 
+### Ansible
+
+- 扩展标识符：vscoss.vscode-ansible
+- 作用：Ansible 插件
+
 ### YAML
 
 - 扩展标识符：redhat.vscode-yaml
