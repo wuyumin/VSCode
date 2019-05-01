@@ -40,7 +40,13 @@ update.mode(1.32+) update.channel(1.32-)
 "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
 ```
 
-### Python 实现终端自动加载 Pipenv 虚拟环境
+### Go 语言启用 LanguageServer
+
+```json
+"go.useLanguageServer": true, //Go语言启用LanguageServer
+```
+
+### Python 语言实现终端自动加载 Pipenv 虚拟环境
 
 ```json
 "settings": {
