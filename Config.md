@@ -38,11 +38,11 @@ update.mode(1.32+) update.channel(1.32-)
 
 ```json
     //Command Prompt
-    //"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     //PowerShell
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     //Git Bash
-    "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+    //"terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
 ### Go 语言启用 LanguageServer
