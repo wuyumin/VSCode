@@ -18,10 +18,22 @@
 
 	// scope标识符 https://code.visualstudio.com/docs/languages/identifiers
 
-	// bash shell 脚本
-	"user_bashshell": {
+	// sh shell 脚本
+	"user_shellsh": {
 	"scope": "shellscript",
-	"prefix": "bashshell",
+	"prefix": "shellsh",
+	"body": [
+		"#!/usr/bin/env sh",
+		"",
+		""
+	],
+	"description": "sh shell 脚本"
+	},
+
+	// bash shell 脚本
+	"user_shellbash": {
+	"scope": "shellscript",
+	"prefix": "shellbash",
 	"body": [
 		"#!/usr/bin/env bash",
 		"",
@@ -157,8 +169,8 @@
 		" * ${1:说明文字}",
 		" * ",
 		" * @author Yumin Wu <https://wuyumin.com>",
-		" * @link https://hndnews.com",
-		" * @copyright Copyright (c) hndnews.com",
+		" * @link https://089858.com",
+		" * @copyright Copyright (c) 089858.com",
 		" */",
 		"",
 		""
@@ -176,8 +188,8 @@
 		" * ${1:说明文字}",
 		" * ",
 		" * @author Yumin Wu <https://wuyumin.com>",
-		" * @link https://089858.com",
-		" * @copyright Copyright (c) 089858.com",
+		" * @link https://wuyumin.com",
+		" * @copyright Copyright (c) wuyumin.com",
 		" */",
 		"",
 		""
