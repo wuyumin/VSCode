@@ -16,6 +16,12 @@
 - 扩展标识符：donjayamanne.githistory
 - 作用：git 日志查看
 
+### Code Runner
+
+- 扩展标识符：formulahendry.code-runner
+- 作用：直接运行对应语言的代码
+- 注：配置项code-runner.executorMap是设置各种语言运行环境(具体配置见插件介绍页)
+
 ### Go语言插件
 
 - 扩展标识符：ms-vscode.go
