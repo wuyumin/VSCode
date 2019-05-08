@@ -22,6 +22,11 @@
 - 作用：直接运行对应语言的代码
 - 注：配置项code-runner.executorMap是设置各种语言运行环境(具体配置见插件介绍页)
 
+### Sort lines
+
+- 扩展标识符：tyriar.sort-lines
+- 作用：按字母排序代码行
+
 ### Go语言插件
 
 - 扩展标识符：ms-vscode.go
