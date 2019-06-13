@@ -11,6 +11,7 @@ update.mode(1.32+) update.channel(1.32-)
     "extensions.autoCheckUpdates": false, //取消扩展更新检查
     "workbench.startupEditor": "none", //编辑器启动后默认显示
     "editor.renderWhitespace": "all", //显示隐藏的tab和空格
+    "breadcrumbs.enabled": false, //禁用导航路径
     //配置排除的文件和文件夹
     "files.exclude": {
         "**/.idea": true //排除JetBrains系列软件配置文件
