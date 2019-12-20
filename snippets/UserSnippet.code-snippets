@@ -18,30 +18,6 @@
 
 	// scope标识符 https://code.visualstudio.com/docs/languages/identifiers
 
-	// sh shell 脚本
-	"user_shellsh": {
-	"scope": "shellscript",
-	"prefix": "shellsh",
-	"body": [
-		"#!/usr/bin/env sh",
-		"",
-		""
-	],
-	"description": "sh shell 脚本"
-	},
-
-	// bash shell 脚本
-	"user_shellbash": {
-	"scope": "shellscript",
-	"prefix": "shellbash",
-	"body": [
-		"#!/usr/bin/env bash",
-		"",
-		""
-	],
-	"description": "bash shell 脚本"
-	},
-
 	// 手机版基本CSS
 	"user_cssmob": {
 	"scope": "css,html,go,python,php",
@@ -159,6 +135,19 @@
 	"description": "通用模块化"
 	},
 
+	// Node头部
+	"user_nodeheader": {
+	"scope": "javascript",
+	"prefix": "nodeheader",
+	"body": [
+		"'use strict';",
+		"",
+		"",
+		""
+	],
+	"description": "Node头部"
+	},
+
 	// PHP公司头部
 	"user_phpcom": {
 	"scope": "php",
@@ -221,6 +210,57 @@
 		""
 	],
 	"description": "Python头部"
-	}
+	},
+
+	// Python2头部
+	"user_py2header": {
+	"scope": "python",
+	"prefix": "py2header",
+	"body": [
+		"#!/usr/bin/env python2",
+		"# coding=utf-8",
+		"",
+		"",
+		""
+	],
+	"description": "Python2头部"
+	},
+
+	// Python3头部
+	"user_py3header": {
+	"scope": "python",
+	"prefix": "py3header",
+	"body": [
+		"#!/usr/bin/env python3",
+		"",
+		"",
+		""
+	],
+	"description": "Python3头部"
+	},
+
+	// bash shell 脚本
+	"user_shellbash": {
+	"scope": "shellscript",
+	"prefix": "shellbash",
+	"body": [
+		"#!/usr/bin/env bash",
+		"",
+		""
+	],
+	"description": "bash shell 脚本"
+	},
+
+	// sh shell 脚本
+	"user_shellsh": {
+	"scope": "shellscript",
+	"prefix": "shellsh",
+	"body": [
+		"#!/usr/bin/env sh",
+		"",
+		""
+	],
+	"description": "sh shell 脚本"
+	},
 
 }
