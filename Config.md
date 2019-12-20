@@ -6,16 +6,19 @@
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
 update.mode(1.32+) update.channel(1.32-)  
 ```json
-    "update.mode": "none", //取消自动更新VSCode
-    "extensions.autoUpdate": false, //取消自动更新扩展
-    "extensions.autoCheckUpdates": false, //取消扩展更新检查
-    "workbench.startupEditor": "none", //编辑器启动后默认显示
-    "editor.renderWhitespace": "all", //显示隐藏的tab和空格
-    "breadcrumbs.enabled": false, //禁用导航路径
-    //配置排除的文件和文件夹
+{
+    "http.proxy": "http://127.0.0.1:1080", // 设置代理
+    "update.mode": "none", // 取消自动更新VSCode
+    "extensions.autoUpdate": false, // 取消自动更新扩展
+    "extensions.autoCheckUpdates": false, // 取消扩展更新检查
+    "workbench.startupEditor": "none", // 编辑器启动后默认显示
+    "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
+    "breadcrumbs.enabled": false, // 禁用导航路径
+    // 配置排除的文件和文件夹
     "files.exclude": {
-        "**/.idea": true //排除JetBrains系列软件配置文件
+        "**/.idea": true, // 排除JetBrains系列软件配置文件
     },
+}
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
