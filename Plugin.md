@@ -6,6 +6,23 @@
 
 默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。
 
+### 远程开发插件
+
+#### Remote - SSH
+
+- 扩展标识符：ms-vscode-remote.remote-ssh
+- 作用：远程计算机/虚拟机的远程开发
+
+#### Remote - WSL
+
+- 扩展标识符：ms-vscode-remote.remote-wsl
+- 作用：windows下的Linux子系统WSL(Windows Subsystem for Linux)的远程开发
+
+#### Remote - Containers
+
+- 扩展标识符：ms-vscode-remote.remote-containers
+- 作用：容器的远程开发
+
 ### GitLens
 
 - 扩展标识符：eamodio.gitlens
