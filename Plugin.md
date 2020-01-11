@@ -1,5 +1,12 @@
 # 常用插件
 
+### 简体中文语言插件
+
+搜索“chinese”
+
+- 扩展标识符：ms-ceintl.vscode-language-pack-zh-hans
+- 作用：简体中文语言
+
 ### 各个语言插件
 
 <https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Downloads>
