@@ -49,10 +49,16 @@ update.mode(1.32+) update.channel(1.32-)
     //"terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
-### Go 语言启用 LanguageServer
+### go语言设置
 
 ```json
 "go.useLanguageServer": true, // Go语言启用LanguageServer
+```
+
+### python语言设置
+
+```json
+"python.autoComplete.addBrackets": true, // 自动补全函数括号
 ```
 
 ### Python 语言实现终端自动加载 Pipenv 虚拟环境
