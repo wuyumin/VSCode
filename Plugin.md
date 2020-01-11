@@ -107,3 +107,8 @@
 
 - 扩展标识符：bungcip.better-toml
 - 作用：TOML 插件
+
+### Live Server
+
+- 扩展标识符：ritwickdey.liveserver
+- 作用：热更新调试
