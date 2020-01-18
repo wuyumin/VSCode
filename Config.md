@@ -8,6 +8,8 @@ update.mode(1.32+) update.channel(1.32-)
 ```json
 {
     // "http.proxy": "http://127.0.0.1:1080", // 设置代理
+    // "http.proxyStrictSSL": false, // 验证证书
+
     "update.mode": "none", // 取消自动更新VSCode
     "extensions.autoUpdate": false, // 取消自动更新扩展
     "extensions.autoCheckUpdates": false, // 取消扩展更新检查
