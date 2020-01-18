@@ -112,3 +112,16 @@
 
 - 扩展标识符：ritwickdey.liveserver
 - 作用：热更新调试
+
+### Power Mode
+
+- 扩展标识符：hoovercj.vscode-power-mode
+- 作用：炫酷特效
+
+设置
+```json
+    // Power Mode炫酷特效插件设置
+    "powermode.enabled": true, // 是否开启
+    "powermode.presets": "particles", // 样式效果
+    "powermode.enableShake": false, // 是否抖动
+```
