@@ -18,6 +18,7 @@ update.mode(1.32+) update.channel(1.32-)
     "breadcrumbs.enabled": false, // 禁用导航路径
     // 配置排除的文件和文件夹
     "files.exclude": {
+        // "**/.git": false, // 临时关闭排除
         "**/.idea": true, // 排除JetBrains系列软件配置文件
     },
 }
