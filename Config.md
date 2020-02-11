@@ -62,7 +62,7 @@ update.mode(1.32+) update.channel(1.32-)
 
 ```json
 "python.autoComplete.addBrackets": true, // 自动补全函数括号
-"python.formatting.provider": "yapf", // 需要安装sudo pip3 install yapf
+"python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 ```
 
 ### Python 语言实现终端自动加载 Pipenv 虚拟环境
