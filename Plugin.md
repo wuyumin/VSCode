@@ -125,3 +125,8 @@
     "powermode.presets": "particles", // 样式效果
     "powermode.enableShake": false, // 是否抖动
 ```
+
+### Prettier - Code formatter
+
+- 扩展标识符：esbenp.prettier-vscode
+- 作用：代码格式化
