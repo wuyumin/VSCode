@@ -108,6 +108,11 @@
 - 扩展标识符：bungcip.better-toml
 - 作用：TOML 插件
 
+### XML Tools
+
+- 扩展标识符：dotjoshjohnson.xml
+- 作用：XML 插件
+
 ### Live Server
 
 - 扩展标识符：ritwickdey.liveserver
