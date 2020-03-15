@@ -4,7 +4,6 @@
 `一般可通过菜单上的设置来调整`。 
 
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
-update.mode(1.32+) update.channel(1.32-)  
 ```json
 {
     // "http.proxy": "http://127.0.0.1:1080", // 设置代理
@@ -34,8 +33,6 @@ update.mode(1.32+) update.channel(1.32-)
 		}
 	],
 	"settings": {
-		"python.pythonPath": "D:\\Python\\venv\\.venv\\Scripts\\python.exe",
-		"terminal.integrated.shellArgs.windows": ["/k", "D:\\Python\\venv\\.venv\\Scripts\\activate.bat"]
 	}
 }
 ```
@@ -45,12 +42,12 @@ update.mode(1.32+) update.channel(1.32-)
 ### windows系统设置命令终端
 
 ```json
-    //Command Prompt
+    // Command Prompt
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    //PowerShell
-    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //Git Bash
-    //"terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+    // PowerShell
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // Git Bash
+    // "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
 ### go语言设置
@@ -62,21 +59,8 @@ update.mode(1.32+) update.channel(1.32-)
 ### python语言设置
 
 ```json
+"python.pythonPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径)
+"python.terminal.activateEnvInCurrentTerminal": true,
 "python.autoComplete.addBrackets": true, // 自动补全函数括号
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 ```
-
-### Python 语言实现终端自动加载 Pipenv 虚拟环境
-
-```json
-"settings": {
-		"python.pythonPath": "D:\\Python\\venv\\.venv\\Scripts\\python.exe",
-		"terminal.integrated.shellArgs.windows": ["/k", "D:\\Python\\venv\\.venv\\Scripts\\activate.bat"]
-}
-```
-`python.pythonPath`填写 Pipenv 虚拟环境 python 二进制文件绝对路径  
-Windows系统：`terminal.integrated.shellArgs.windows`填写 Pipenv 虚拟环境启动文件绝对路径  
-Mac系统：`terminal.integrated.shellArgs.osx": ["-c", "source /data/Python/venv/.venv/Scripts/activate"]`  
-Linux系统：`terminal.integrated.shellArgs.linux": ["-c", "source /data/Python/venv/.venv/Scripts/activate"]`  
-  
-注：Virtualenv 虚拟环境类似
