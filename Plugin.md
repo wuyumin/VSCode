@@ -40,6 +40,11 @@
 - 扩展标识符：donjayamanne.githistory
 - 作用：git 日志查看
 
+### Git Graph
+
+- 扩展标识符：mhutchie.git-graph
+- 作用：漂亮的 git 提交历史查看
+
 ### Code Runner
 
 - 扩展标识符：formulahendry.code-runner
