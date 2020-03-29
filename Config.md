@@ -54,6 +54,7 @@
 
 ```json
 "go.useLanguageServer": true, // Go语言启用LanguageServer
+"go.formatTool": "goimports", // 格式化工具
 ```
 
 ### python语言设置
