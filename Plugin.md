@@ -45,6 +45,12 @@
 - 扩展标识符：mhutchie.git-graph
 - 作用：漂亮的 git 提交历史查看
 
+设置
+```json
+    // Git Graph设置时间格式，默认是"Date & Time"
+    "git-graph.dateFormat": "ISO Date & Time",
+```
+
 ### Code Runner
 
 - 扩展标识符：formulahendry.code-runner
