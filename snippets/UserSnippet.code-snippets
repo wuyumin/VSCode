@@ -245,6 +245,7 @@
 	"prefix": "shellbash",
 	"body": [
 		"#!/usr/bin/env bash",
+		"set -e",
 		"",
 		""
 	],
@@ -257,6 +258,7 @@
 	"prefix": "shellsh",
 	"body": [
 		"#!/usr/bin/env sh",
+		"set -e",
 		"",
 		""
 	],
