@@ -84,6 +84,12 @@
 - 扩展标识符：felixfbecker.php-intellisense
 - 作用：PHP语言插件
 
+### Rust语言插件
+
+- 扩展标识符：rust-lang.rust
+- 作用：Rust语言插件
+- 注：还要安装一些Rust组件  
+
 ### Vetur(Vue 插件)
 
 - 扩展标识符：octref.vetur
