@@ -2,6 +2,11 @@
 
 ### 如何使用有私钥密码的ssh协议的git？
 
+```bash
+eval $(ssh-agent -s) > /dev/null
+ssh-add ~/.ssh/id_rsa
+```
+
 1. 打开命令行工具
 2. 运行SSH代理
   - windows系统：`start-ssh-agent`并输入私钥密码
