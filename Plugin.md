@@ -88,7 +88,12 @@
 
 - 扩展标识符：rust-lang.rust
 - 作用：Rust语言插件
-- 注：还要安装一些Rust组件  
+- 注：还要安装一些Rust组件
+
+### Deno语言插件
+
+- 扩展标识符：denoland.vscode-deno
+- 作用：Deno语言插件
 
 ### Vetur(Vue 插件)
 
