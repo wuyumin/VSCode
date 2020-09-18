@@ -51,6 +51,32 @@
     // "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
+### 自定义格式化(各语言分别设置)
+
+```json
+"[javascript]": {
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+},
+"[typescript]": {
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"[html]": {
+  "editor.defaultFormatter": "vscode.html-language-features"
+},
+"[json]": {
+  "editor.defaultFormatter": "vscode.json-language-features"
+},
+"[yaml]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[toml]": {
+  "editor.formatOnSave": true
+},
+"[rust]": {
+  "editor.formatOnSave": true
+},
+```
+
 ### go语言设置
 
 ```json
