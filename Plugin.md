@@ -125,9 +125,9 @@
 - 扩展标识符：redhat.vscode-yaml
 - 作用：YAML 插件
 
-### Better TOML
+### Even Better TOML
 
-- 扩展标识符：bungcip.better-toml
+- 扩展标识符：tamasfe.even-better-toml
 - 作用：TOML 插件
 
 ### XML Tools
