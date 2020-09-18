@@ -8,6 +8,7 @@
 {
     // "http.proxy": "http://127.0.0.1:1080", // 设置代理
     // "http.proxyStrictSSL": false, // 验证证书
+    // "editor.formatOnSave": true, // 保存时自动格式化
 
     "update.mode": "none", // 取消自动更新VSCode
     "extensions.autoUpdate": false, // 取消自动更新扩展
