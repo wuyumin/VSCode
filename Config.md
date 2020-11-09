@@ -14,6 +14,7 @@
     "extensions.autoUpdate": false, // 取消自动更新扩展
     "extensions.autoCheckUpdates": false, // 取消扩展更新检查
     "workbench.startupEditor": "none", // 编辑器启动后默认显示
+    "workbench.editor.openPositioning": "last", // 新打开页的显示位置
     "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
     "breadcrumbs.enabled": false, // 禁用导航路径
     "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
