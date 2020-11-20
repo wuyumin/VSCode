@@ -56,19 +56,26 @@
 
 ```json
 "[javascript]": {
-  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 },
 "[typescript]": {
-  "editor.defaultFormatter": "vscode.typescript-language-features"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+},
+"[vue]": {
+  "editor.defaultFormatter": "octref.vetur",
+  "editor.formatOnSave": true
 },
 "[html]": {
-  "editor.defaultFormatter": "vscode.html-language-features"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
 "[json]": {
-  "editor.defaultFormatter": "vscode.json-language-features"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
 "[yaml]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 },
 "[toml]": {
   "editor.formatOnSave": true
