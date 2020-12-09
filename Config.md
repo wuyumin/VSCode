@@ -16,6 +16,7 @@
     "workbench.startupEditor": "none", // 编辑器启动后默认显示
     "workbench.editor.openPositioning": "last", // 新打开页的显示位置
     "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
+    "editor.tabCompletion": "on", // tab键补全
     "breadcrumbs.enabled": false, // 禁用导航路径
     "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
     // 配置排除的文件和文件夹
