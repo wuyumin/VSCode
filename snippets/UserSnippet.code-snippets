@@ -34,7 +34,7 @@
         "h3{font-size: 100%;font-weight: normal;}",
         ".clear:after{display: block;clear: both;content: \"\";visibility: hidden;height: 0;}",
         ".clear{zoom: 1;}",
-        "#wrap{max-width: ${6:640px};background: ${7:#fff};}"
+        "#app{max-width: ${6:640px};background: ${7:#fff};}"
 	],
 	"description": "手机版基本CSS"
 	},
@@ -55,7 +55,7 @@
 		"h3{font-size: 100%;font-weight: normal;}",
 		".clear:after{display: block;clear: both;content: \"\";visibility: hidden;height: 0;}",
 		".clear{zoom: 1;}",
-		"#wrap{}"
+		"#app{}"
 	],
 	"description": "电脑版基本CSS"
 	},
@@ -78,7 +78,7 @@
 		"<script src=\"${5:./js/global.js}\"></script>",
 		"</head>",
 		"<body>",
-		"<div id=\"wrap\">",
+		"<div id=\"app\">",
 		"${6:内容}",
 		"</div>",
 		"</body>",
@@ -105,7 +105,7 @@
 		"<script src=\"${5:./js/global.js}\"></script>",
 		"</head>",
 		"<body>",
-		"<div id=\"wrap\">",
+		"<div id=\"app\">",
 		"${6:内容}",
 		"</div>",
 		"</body>",
