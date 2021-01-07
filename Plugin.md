@@ -90,6 +90,16 @@
 - 作用：Rust语言插件
 - 注：还要安装一些Rust组件
 
+### Lua语言插件
+
+lua语法提示
+- 扩展标识符：sumneko.lua
+- 作用：Lua语言插件
+
+lua格式化工具
+- 扩展标识符：koihik.vscode-lua-format
+- 作用：Lua语言插件
+
 ### Deno语言插件
 
 - 扩展标识符：denoland.vscode-deno
