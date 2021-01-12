@@ -53,6 +53,12 @@
     // "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
+### prettier格式化设置
+
+```json
+"prettier.tabWidth": 2,
+```
+
 ### 自定义格式化(各语言分别设置)
 
 ```json
