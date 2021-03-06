@@ -265,4 +265,36 @@
 	"description": "sh shell 脚本"
 	},
 
+	// go main 代码
+	"user_gomain": {
+	"scope": "go",
+	"prefix": "gomain",
+	"body": [
+		"package main",
+		"",
+		"import (",
+		"	\"fmt\"",
+		")",
+		"",
+		"func main() {",
+		"	fmt.Println(\"${1:内容}\")",
+		"}",
+		"",
+	],
+	"description": "go main 代码"
+	},
+
+	// rust main 代码
+	"user_rustmain": {
+	"scope": "rust",
+	"prefix": "rustmain",
+	"body": [
+		"fn main() {",
+		"    println!(\"${1:内容}\");",
+		"}",
+		"",
+	],
+	"description": "rust main 代码"
+	},
+
 }
