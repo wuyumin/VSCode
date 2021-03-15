@@ -32,6 +32,36 @@
 - 扩展标识符：ms-vscode-remote.remote-containers
 - 作用：容器的远程开发
 
+### TODO.md Kanban Board
+
+- 扩展标识符：coddx.coddx-alpha
+- 作用：看板式任务管理(通过命令面板搜索kanban使用)
+
+vi TODO.md
+```md
+# 项目名称
+
+说明: VSCode通过命令面板搜索kanban使用  
+项目描述  
+
+### 待办
+
+- [ ] 待办任务1  
+  - [ ] 子任务1  
+  - [ ] 子任务2  
+- [ ] 待办任务2  
+
+### 进行中
+
+- [ ] 进行任务1  
+- [ ] 进行任务2  
+
+### 完成 ✓
+
+- [x] 完成任务1  
+- [x] 完成任务2  
+```
+
 ### GitLens
 
 - 扩展标识符：eamodio.gitlens
