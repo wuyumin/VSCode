@@ -20,6 +20,7 @@
     "breadcrumbs.enabled": false, // 禁用导航路径
     "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
     "explorer.compactFolders": false, // 不使用紧凑显示文件夹
+    "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
     // 配置排除的文件和文件夹
     "files.exclude": {
         // "**/.git": false, // 临时关闭排除
