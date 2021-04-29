@@ -1,5 +1,7 @@
 # 常用快捷键
 
+注：一些不常用命令可使用命令面板(快捷键`Ctrl + Shift + P`)进行搜索调用  
+
 `Ctrl + P`文件的快速跳转
 
 `空选定并Ctrl + X`剪切行
@@ -55,3 +57,25 @@
 `` Ctrl + ` ``调出终端(命令行工具)
 
 `` Ctrl + Shift + ` ``新终端(命令行工具)
+
+### 自定义快捷键
+
+与设置项菜单同一级的`键盘快捷方式`进行配置
+```json
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    // ...
+]
+```
+
+`Ctrl+Shift+L`转换为小写
+
+`Ctrl+Shift+U`转换为大写
