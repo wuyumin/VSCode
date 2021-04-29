@@ -1,5 +1,7 @@
 # 常用配置
 
+## 设置项
+
 配置一般分为`用户设置`、`工作区设置`、`项目文件夹设置`。  
 `一般可通过菜单上的设置来调整`。 
 
@@ -108,4 +110,22 @@
 "python.terminal.activateEnvInCurrentTerminal": true,
 "python.autoComplete.addBrackets": true, // 自动补全函数括号
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
+```
+
+## 键盘快捷方式设置
+
+与设置项菜单同一级的`键盘快捷方式`进行配置
+```json
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    // ...
+]
 ```
