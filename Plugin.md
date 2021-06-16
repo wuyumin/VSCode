@@ -199,3 +199,8 @@ lua格式化工具
 
 - 扩展标识符：esbenp.prettier-vscode
 - 作用：代码格式化
+
+### Clang-Format
+
+- 扩展标识符：xaver.clang-format
+- 作用：代码格式化
