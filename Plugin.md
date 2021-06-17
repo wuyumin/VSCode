@@ -118,6 +118,11 @@ vi TODO.md
 
 ### Rust语言插件
 
+Rust语言插件1
+- 扩展标识符：matklad.rust-analyzer
+- 作用：Rust语言插件
+
+Rust语言插件2
 - 扩展标识符：rust-lang.rust
 - 作用：Rust语言插件
 - 注：还要安装一些Rust组件
