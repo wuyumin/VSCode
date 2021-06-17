@@ -19,8 +19,10 @@
     "workbench.editor.openPositioning": "last", // 新打开页的显示位置
     "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
     "editor.tabCompletion": "on", // tab键补全
+    // "editor.minimap.enabled": false, // 是否显示缩略图
     "breadcrumbs.enabled": false, // 禁用导航路径
     "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
+    "explorer.autoReveal": false, // 资源管理器打开文件时自动显示并选择
     "explorer.compactFolders": false, // 不使用紧凑显示文件夹
     "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
     // 配置排除的文件和文件夹
