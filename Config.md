@@ -6,7 +6,7 @@
 `一般可通过菜单上的设置来调整`。 
 
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
-```json
+```js
 {
     // "http.proxy": "http://127.0.0.1:1080", // 设置代理
     // "http.proxyStrictSSL": false, // 验证证书
@@ -34,7 +34,7 @@
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
-```json
+```js
 {
 	"folders": [
 		{
@@ -50,7 +50,7 @@
 
 ### windows系统设置命令终端
 
-```json
+```js
     // Command Prompt
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     // PowerShell
@@ -61,13 +61,13 @@
 
 ### prettier格式化设置
 
-```json
+```js
 "prettier.tabWidth": 2,
 ```
 
 ### 自定义格式化(各语言分别设置)
 
-```json
+```js
 "[javascript]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
@@ -100,14 +100,14 @@
 
 ### go语言设置
 
-```json
+```js
 "go.useLanguageServer": true, // Go语言启用LanguageServer
 "go.formatTool": "goimports", // 格式化工具
 ```
 
 ### python语言设置
 
-```json
+```js
 "python.pythonPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径)
 "python.terminal.activateEnvInCurrentTerminal": true,
 "python.autoComplete.addBrackets": true, // 自动补全函数括号
@@ -117,7 +117,7 @@
 ## 键盘快捷方式设置
 
 与设置项菜单同一级的`键盘快捷方式`进行配置
-```json
+```js
 // 将键绑定放在此文件中以覆盖默认值
 [
     {

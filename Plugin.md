@@ -78,7 +78,7 @@ vi TODO.md
 - 作用：漂亮的 git 提交历史查看
 
 设置
-```json
+```js
     // Git Graph设置时间格式，默认是"Date & Time"
     "git-graph.dateFormat": "ISO Date & Time",
 ```
@@ -188,7 +188,7 @@ lua格式化工具
 - 作用：炫酷特效
 
 设置
-```json
+```js
     // Power Mode炫酷特效插件设置
     "powermode.enabled": true, // 是否开启
     "powermode.presets": "particles", // 样式效果
