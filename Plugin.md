@@ -149,6 +149,11 @@ lua格式化工具
 - 扩展标识符：octref.vetur
 - 作用：Vue 插件
 
+### Tailwind CSS IntelliSense
+
+- 扩展标识符：bradlc.vscode-tailwindcss
+- 作用：tailwind 插件
+
 ### Docker 插件
 
 - 扩展标识符：peterjausovec.vscode-docker
