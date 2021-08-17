@@ -153,6 +153,7 @@ lua格式化工具
 
 - 扩展标识符：bradlc.vscode-tailwindcss
 - 作用：tailwind 插件
+- 注：需要npm安装tailwindcss`npm install tailwindcss --save-dev`及`npx tailwind init`生成tailwind.config.js配置文件插件才生效
 
 ### Docker 插件
 
