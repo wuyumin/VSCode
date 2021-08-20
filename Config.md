@@ -8,32 +8,32 @@
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
 ```js
 {
-    // "http.proxy": "http://127.0.0.1:1080", // 设置代理
-    // "http.proxyStrictSSL": false, // 验证证书
-    // "editor.formatOnSave": true, // 保存时自动格式化
+  // "http.proxy": "http://127.0.0.1:1080", // 设置代理
+  // "http.proxyStrictSSL": false, // 验证证书
+  // "editor.formatOnSave": true, // 保存时自动格式化
 
-    "editor.detectIndentation": false, // 配置tabSize时可能需要这个
-    "editor.tabSize": 2, // 一个tab等于多少个空格
-    // "editor.insertSpaces": false, // 按tab插入空格
+  "editor.detectIndentation": false, // 配置tabSize时可能需要这个
+  "editor.tabSize": 2, // 一个tab等于多少个空格
+  // "editor.insertSpaces": false, // 按tab插入空格
 
-    "update.mode": "none", // 取消自动更新VSCode
-    "extensions.autoUpdate": false, // 取消自动更新扩展
-    "extensions.autoCheckUpdates": false, // 取消扩展更新检查
-    "workbench.startupEditor": "none", // 编辑器启动后默认显示
-    "workbench.editor.openPositioning": "last", // 新打开页的显示位置
-    "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
-    "editor.tabCompletion": "on", // tab键补全
-    // "editor.minimap.enabled": false, // 是否显示缩略图
-    "breadcrumbs.enabled": false, // 禁用导航路径
-    "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
-    "explorer.autoReveal": false, // 资源管理器打开文件时自动显示并选择
-    "explorer.compactFolders": false, // 不使用紧凑显示文件夹
-    "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
-    // 配置排除的文件和文件夹
-    "files.exclude": {
-        // "**/.git": false, // 临时关闭排除
-        "**/.idea": true, // 排除JetBrains系列软件配置文件
-    },
+  "update.mode": "none", // 取消自动更新VSCode
+  "extensions.autoUpdate": false, // 取消自动更新扩展
+  "extensions.autoCheckUpdates": false, // 取消扩展更新检查
+  "workbench.startupEditor": "none", // 编辑器启动后默认显示
+  "workbench.editor.openPositioning": "last", // 新打开页的显示位置
+  "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
+  "editor.tabCompletion": "on", // tab键补全
+  // "editor.minimap.enabled": false, // 是否显示缩略图
+  "breadcrumbs.enabled": false, // 禁用导航路径
+  "diffEditor.ignoreTrimWhitespace": false, // 显示首尾的空白差异
+  "explorer.autoReveal": false, // 资源管理器打开文件时自动显示并选择
+  "explorer.compactFolders": false, // 不使用紧凑显示文件夹
+  "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
+  // 配置排除的文件和文件夹
+  "files.exclude": {
+    // "**/.git": false, // 临时关闭排除
+    "**/.idea": true, // 排除JetBrains系列软件配置文件
+  },
 }
 ```
 
@@ -55,12 +55,12 @@
 ### windows系统设置命令终端
 
 ```js
-    // Command Prompt
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    // PowerShell
-    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    // Git Bash
-    // "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+  // Command Prompt
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  // PowerShell
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // Git Bash
+  // "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
 ```
 
 ### prettier格式化设置
@@ -124,14 +124,14 @@
 ```js
 // 将键绑定放在此文件中以覆盖默认值
 [
-    {
-        "key": "ctrl+shift+l",
-        "command": "editor.action.transformToLowercase"
-    },
-    {
-        "key": "ctrl+shift+u",
-        "command": "editor.action.transformToUppercase"
-    },
-    // ...
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  // ...
 ]
 ```
