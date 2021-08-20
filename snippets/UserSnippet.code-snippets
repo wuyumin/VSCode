@@ -297,4 +297,29 @@
 	"description": "rust main 代码"
 	},
 
+	// 手机版tailwind网页
+	"user_tailwindmob": {
+    "scope": "html,go,python,php",
+    "prefix": "tailwindmob",
+    "body": [
+      "<!doctype html>",
+      "<html lang=\"zh-CN\" class=\"h-full\">",
+      "<head>",
+      "<meta charset=\"utf-8\">",
+      "<title>标题</title>",
+      "<meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover\">",
+      "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/tailwindcss@${1:2.2.7}/dist/tailwind.min.css\">",
+      "<!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@tailwindcss/typography@${2:0.4.1}/dist/typography.min.css\"> -->",
+      "</head>",
+      "<body class=\"h-full bg-gray-50\">",
+      "<div class=\"h-full max-w-screen-sm mx-auto bg-gray-100\">",
+      "${3:内容}",
+      "</div>",
+      "</body>",
+      "</html>",
+      "",
+    ],
+    "description": "手机版tailwind网页"
+    },
+
 }
