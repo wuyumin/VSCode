@@ -12,6 +12,10 @@
     // "http.proxyStrictSSL": false, // 验证证书
     // "editor.formatOnSave": true, // 保存时自动格式化
 
+    "editor.detectIndentation": false, // 配置tabSize时可能需要这个
+    "editor.tabSize": 2, // 一个tab等于多少个空格
+    // "editor.insertSpaces": false, // 按tab插入空格
+
     "update.mode": "none", // 取消自动更新VSCode
     "extensions.autoUpdate": false, // 取消自动更新扩展
     "extensions.autoCheckUpdates": false, // 取消扩展更新检查
