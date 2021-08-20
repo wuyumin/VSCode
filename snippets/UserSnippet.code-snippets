@@ -312,7 +312,7 @@
       "<!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@tailwindcss/typography@${2:0.4.1}/dist/typography.min.css\"> -->",
       "</head>",
       "<body class=\"h-full bg-gray-50\">",
-      "<div class=\"h-full max-w-screen-sm mx-auto bg-gray-100\">",
+      "<div class=\"min-h-screen max-w-screen-sm mx-auto bg-gray-300\">",
       "${3:内容}",
       "</div>",
       "</body>",
