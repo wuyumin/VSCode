@@ -297,8 +297,8 @@
 	"description": "rust main 代码"
 	},
 
-	// 手机版tailwind网页
-	"user_tailwindmob": {
+  // 手机版tailwind网页
+  "user_tailwindmob": {
     "scope": "html,go,python,php",
     "prefix": "tailwindmob",
     "body": [
@@ -320,6 +320,45 @@
       "",
     ],
     "description": "手机版tailwind网页"
+    },
+
+  // vue单文件组件
+  "user_vue": {
+    "scope": "vue",
+    "prefix": "vuesingle",
+    "body": [
+      "<template>",
+      "  <div class=\"wrap\">",
+      "    ",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "// <script lang=\"ts\">",
+      "export default {",
+      "  name: '${1:templateName}',",
+      "  components: {",
+      "    ",
+      "  },",
+      "  props: [],",
+      "  data() {",
+      "    return {",
+      "      ",
+      "    };",
+      "  },",
+      "  methods: {",
+      "    ",
+      "  },",
+      "};",
+      "</script>",
+      "",
+      "<style scoped>",
+      "/*<style scoped lang=\"less\">*/",
+      "/*<style scoped lang=\"scss\">*/",
+      "</style>",
+      "",
+    ],
+    "description": "vue单文件组件"
     },
 
 }
