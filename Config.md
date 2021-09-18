@@ -34,6 +34,12 @@
     // "**/.git": false, // 临时关闭排除
     "**/.idea": true, // 排除JetBrains系列软件配置文件
   },
+
+  // 配置语言的文件关联
+  "files.associations": {
+    ".json": "jsonc"
+  },
+
 }
 ```
 
