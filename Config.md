@@ -37,7 +37,7 @@
 
   // 配置语言的文件关联
   "files.associations": {
-    ".json": "jsonc"
+    "*.json": "jsonc"
   },
 
 }
