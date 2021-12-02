@@ -144,10 +144,15 @@ lua格式化工具
 - 扩展标识符：denoland.vscode-deno
 - 作用：Deno语言插件
 
-### Vetur(Vue 插件)
+### Vetur(Vue2 插件)
 
 - 扩展标识符：octref.vetur
-- 作用：Vue 插件
+- 作用：Vue2 插件
+
+### Volar(Vue3 插件)
+
+- 扩展标识符：johnsoncodehk.volar
+- 作用：Vue3 插件
 
 ### Tailwind CSS IntelliSense
 
