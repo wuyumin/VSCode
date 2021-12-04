@@ -60,6 +60,29 @@
 
 ### windows系统设置命令终端
 
+终端配置(新版)
+```js
+  "terminal.integrated.profiles.windows": {
+    // Command Prompt
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": []
+    },
+    // PowerShell
+    "PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": []
+    },
+    // Git Bash
+    "Git-Bash": {
+      "path": "D:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+```
+
+终端配置(旧版)
 ```js
   // Command Prompt
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
