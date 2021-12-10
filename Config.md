@@ -136,6 +136,21 @@
 ```js
 "go.useLanguageServer": true, // Go语言启用LanguageServer
 "go.formatTool": "goimports", // 格式化工具
+// 结构体tag配置(参考https://github.com/fatih/gomodifytags)
+"go.addTags": {
+  // json,xml,form,validate:required,gorm:column:xxx;type:varchar(255);not null;default:''
+  "tags": "json",
+  // json=,xml=,form=,validate=,gorm=
+  "options": "json=",
+  "template": "{field}"
+},
+// 右键显示go常用操作命令配置
+"go.editorContextMenuCommands": {
+  "removeTags": true,
+  "fillStruct": true,
+  "playground": false,
+  "testCoverage": false,
+},
 ```
 
 ### python语言设置
