@@ -136,6 +136,11 @@
 ```js
 "go.useLanguageServer": true, // Go语言启用LanguageServer
 "go.formatTool": "goimports", // 格式化工具
+// staticcheck代码规范配置
+"go.lintFlags": [
+  "-checks",
+  "all,-ST1001"
+],
 // 结构体tag配置(参考https://github.com/fatih/gomodifytags)
 "go.addTags": {
   // json,xml,form,validate:required,gorm:column:xxx;type:varchar(255);not null;default:''
