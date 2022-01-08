@@ -139,7 +139,7 @@
 // staticcheck代码规范配置
 "go.lintFlags": [
   "-checks",
-  "all,-ST1001"
+  "all,-ST1000,-ST1001,-ST1020"
 ],
 // 结构体tag配置(参考https://github.com/fatih/gomodifytags)
 "go.addTags": {
