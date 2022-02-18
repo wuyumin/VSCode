@@ -98,25 +98,24 @@
 "prettier.tabWidth": 2,
 ```
 
-### 自定义格式化(各语言分别设置)
+### 自定义格式化[各语言分别设置(多语言一起设置版本1.63+)]
 
 ```js
-"[javascript]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
-"[typescript]": {
+"[css]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+},
+"[javascript][typescript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
 },
 "[vue]": {
   "editor.defaultFormatter": "octref.vetur",
   "editor.formatOnSave": true
 },
-"[html]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[json]": {
+"[json][jsonc]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
 "[yaml]": {
@@ -126,7 +125,15 @@
 "[toml]": {
   "editor.formatOnSave": true
 },
+"[python]": {
+  "editor.defaultFormatter": "ms-python.python",
+  "editor.formatOnSave": true
+},
 "[rust]": {
+  "editor.formatOnSave": true
+},
+"[c][cpp][h][hpp]": {
+  "editor.defaultFormatter": "xaver.clang-format",
   "editor.formatOnSave": true
 },
 ```
