@@ -32,6 +32,7 @@
   // 配置排除的文件和文件夹
   "files.exclude": {
     // "**/.git": false, // 临时关闭排除
+    "**/.DS_Store": false,
     "**/.idea": true, // 排除JetBrains系列软件配置文件
   },
 
