@@ -169,9 +169,8 @@
 ### python语言设置
 
 ```js
-"python.pythonPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径)
+"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
 "python.terminal.activateEnvInCurrentTerminal": true,
-"python.autoComplete.addBrackets": true, // 自动补全函数括号
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 ```
 
