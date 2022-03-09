@@ -13,7 +13,20 @@
 
 <https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Downloads>
 
-默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。
+默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。  
+vue等可能需要配合jsconfig.json文件才能更好定位跳转(如webpack别名)  
+jsconfig.json (文件路径是相对于jsconfig.json的位置)
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
+```
 
 ### 远程开发插件
 
