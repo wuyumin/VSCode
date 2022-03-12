@@ -297,6 +297,83 @@
 	"description": "rust main 代码"
 	},
 
+	// c header 代码
+	"user_cheader": {
+  "scope": "c",
+  "prefix": "cheader",
+  "body": [
+    "#ifndef ${1:__XXX}_H",
+    "#define ${2:__XXX}_H",
+    "",
+    "#ifdef __cplusplus",
+    "extern \"C\" {",
+    "#endif",
+    "",
+    "${3:/* do something */}",
+    "",
+    "#ifdef __cplusplus",
+    "}",
+    "#endif",
+    "#endif",
+    "",
+  ],
+  "description": "c header 代码"
+  },
+
+	// c main 代码
+	"user_cmain": {
+  "scope": "c",
+  "prefix": "cmain",
+  "body": [
+    "#include <stdio.h>",
+    "",
+    "int main(void) {",
+    "  printf(\"hello world\\n\");",
+    "  puts(\"hello world 2\"); // puts会自动添加换行符",
+    "",
+    "  return 0;",
+    "}",
+    "",
+  ],
+  "description": "c main 代码"
+  },
+
+	// cpp header 代码
+	"user_cppheader": {
+  "scope": "cpp",
+  "prefix": "cppheader",
+  "body": [
+    "#ifndef ${1:__XXX}_H",
+    "#define ${2:__XXX}_H",
+    "",
+    "${3:/* do something */}",
+    "",
+    "#endif",
+    "",
+  ],
+  "description": "cpp header 代码"
+  },
+  
+  // cpp main 代码
+  "user_cppmain": {
+  "scope": "cpp",
+  "prefix": "cppmain",
+  "body": [
+    "#include <iostream>",
+    "",
+    "using namespace std;",
+    "",
+    "int main() {",
+    "  // std::cout std::endl",
+    "  cout << \"hello world\" << endl;",
+    "",
+    "  return 0;",
+    "}",
+    "",
+  ],
+  "description": "cpp main 代码"
+  },
+
   // 手机版tailwind网页
   "user_tailwindmob": {
     "scope": "html,go,python,php",
@@ -325,7 +402,7 @@
   // vue单文件组件
   "user_vue": {
     "scope": "vue",
-    "prefix": "vuesingle",
+    "prefix": "vue2single",
     "body": [
       "<template>",
       "  <div class=\"wrap\">",
@@ -358,7 +435,7 @@
       "</style>",
       "",
     ],
-    "description": "vue单文件组件"
+    "description": "vue2单文件组件"
     },
 
 }
