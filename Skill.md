@@ -6,6 +6,7 @@
 eval $(ssh-agent -s) > /dev/null
 ssh-add ~/.ssh/id_rsa
 ```
+会自动设置`SSH_AUTH_SOCK`环境变量
 
 1. 打开命令行工具
 2. 运行SSH代理
