@@ -15,6 +15,12 @@
   "editor.detectIndentation": false, // 配置tabSize时可能需要这个
   "editor.tabSize": 2, // 一个tab等于多少个空格
   // "editor.insertSpaces": false, // 按tab插入空格
+  // "editor.bracketPairColorization.enabled": true, // 括号对着色
+  "editor.guides.bracketPairs": "active", // 括号对指南(代码块边缘导轨线着色)
+  // 未高亮显示unicode字符
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
 
   "update.mode": "none", // 取消自动更新VSCode
   "extensions.autoUpdate": false, // 取消自动更新扩展
