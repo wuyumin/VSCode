@@ -180,6 +180,12 @@
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 ```
 
+### rust语言设置
+
+```js
+"rust-analyzer.inlayHints.enable": false,
+```
+
 ## 键盘快捷方式设置
 
 与设置项菜单同一级的`键盘快捷方式`进行配置
