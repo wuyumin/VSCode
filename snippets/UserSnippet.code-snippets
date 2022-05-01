@@ -399,8 +399,34 @@
     "description": "手机版tailwind网页"
     },
 
-  // vue单文件组件
-  "user_vue": {
+  // vue3单文件组件
+  "user_vue3": {
+    "scope": "vue",
+    "prefix": "vue3single",
+    "body": [
+      "<template>",
+      "  <div class=\"wrap\">",
+      "    ",
+      "  </div>",
+      "</template>",
+      "",
+      "<script setup>",
+      "// <script setup lang=\"ts\">",
+      "import { ref, defineProps, defineEmits } from 'vue';",
+      "",
+      "</script>",
+      "",
+      "<style scoped>",
+      "/*<style scoped lang=\"less\">*/",
+      "/*<style scoped lang=\"scss\">*/",
+      "</style>",
+      "",
+    ],
+    "description": "vue3单文件组件"
+    },
+
+  // vue2单文件组件
+  "user_vue2": {
     "scope": "vue",
     "prefix": "vue2single",
     "body": [
