@@ -235,3 +235,15 @@ lua格式化工具
 
 - 扩展标识符：xaver.clang-format
 - 作用：代码格式化
+
+### REST Client
+
+- 扩展标识符：humao.rest-client
+- 作用：接口请求(类似于postman、curl)
+
+官网文档<https://github.com/Huachao/vscode-restclient>  
+设置
+```js
+// REST Client扩展设置
+// "rest-client.defaultHeaders": {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"},
+```
