@@ -187,7 +187,8 @@
 ### rust语言设置
 
 ```js
-"rust-analyzer.inlayHints.enable": false,
+"rust-analyzer.inlayHints.parameterHints.enable": false,
+"rust-analyzer.inlayHints.chainingHints.enable": false,
 ```
 
 ## 键盘快捷方式设置
