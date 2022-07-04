@@ -314,7 +314,7 @@
     "#ifdef __cplusplus",
     "}",
     "#endif",
-    "#endif",
+    "#endif //${4:__XXX}_H",
     "",
   ],
   "description": "c header 代码"
