@@ -189,6 +189,7 @@
 ```js
 "rust-analyzer.inlayHints.parameterHints.enable": false,
 "rust-analyzer.inlayHints.chainingHints.enable": false,
+"rust-analyzer.inlayHints.typeHints.enable": false,
 ```
 
 ## 键盘快捷方式设置
