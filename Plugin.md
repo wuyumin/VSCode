@@ -239,3 +239,30 @@ lua格式化工具
 // REST Client扩展设置
 // "rest-client.defaultHeaders": {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36"},
 ```
+
+xxx.http
+```ini
+#官网及文档https://github.com/Huachao/vscode-restclient
+
+#变量定义
+@port = 3000
+#变量使用{{port}}
+
+#以三个###分隔多个接口请求
+
+### 请求(RFC2616格式)
+GET http://127.0.0.1:3000
+
+### 请求(支持curl格式)
+curl -X GET 'http://127.0.0.1:3000' -d 'data'
+
+### POST请求
+POST http://127.0.0.1:3000/json
+Content-Type: application/json
+
+{
+  "username": "zhangsan"
+}
+
+### 其它
+```
