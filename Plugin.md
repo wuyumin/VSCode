@@ -228,6 +228,11 @@ lua格式化工具
 - 扩展标识符：xaver.clang-format
 - 作用：代码格式化
 
+### Thunder Client
+
+- 扩展标识符：rangav.vscode-thunder-client
+- 作用：接口请求(相当于postman)
+
 ### REST Client
 
 - 扩展标识符：humao.rest-client
