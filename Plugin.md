@@ -131,8 +131,13 @@ vi TODO.md
 
 ### Rust语言插件
 
+rust-analyzer
 - 扩展标识符：rust-lang.rust-analyzer
 - 作用：Rust语言插件
+
+crates
+- 扩展标识符：serayuzgur.crates
+- 作用：Rust包管理
 
 ### Lua语言插件
 
