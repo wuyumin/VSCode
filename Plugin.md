@@ -164,6 +164,11 @@ lua格式化工具
 - 扩展标识符：johnsoncodehk.volar
 - 作用：Vue3 插件
 
+### Vue VSCode Snippets
+
+- 扩展标识符：sdras.vue-vscode-snippets
+- 作用：Vue代码片段
+
 ### Tailwind CSS IntelliSense
 
 - 扩展标识符：bradlc.vscode-tailwindcss
