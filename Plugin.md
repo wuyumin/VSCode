@@ -139,6 +139,16 @@ crates
 - 扩展标识符：serayuzgur.crates
 - 作用：Rust包管理
 
+### dart语言/flutter插件
+
+Dart
+- 扩展标识符：Dart-Code.dart-code
+- 作用：dart语言插件
+
+Flutter
+- 扩展标识符：Dart-Code.flutter
+- 作用：Flutter插件
+
 ### Lua语言插件
 
 lua语法提示
