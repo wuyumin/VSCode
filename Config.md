@@ -158,11 +158,15 @@
 ],
 // 结构体tag配置(参考https://github.com/fatih/gomodifytags)
 "go.addTags": {
-  // json,xml,form,validate:required,gorm:column:xxx;type:varchar(255);not null;default:''
+  // json,xml,form,validate:required,gorm:column:xxx;type:varchar(255);not null;default:'',bson,redis
+  // 可配置多个，英文逗号隔开
   "tags": "json",
-  // json=,xml=,form=,validate=,gorm=
+  // json=,xml=,form=,validate=,gorm=,bson=,redis=
   "options": "json=",
-  "template": "{field}"
+  "template": "{field}",
+  // snakecase蛇形 camelcase驼峰
+  "transform": "snakecase",
+  "promptForTags": false,
 },
 // 右键显示go常用操作命令配置
 "go.editorContextMenuCommands": {
