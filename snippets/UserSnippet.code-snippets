@@ -65,7 +65,7 @@
 	"scope": "html,go,python,php",
 	"prefix": "mob",
 	"body": [
-		"<!doctype html>",
+		"<!DOCTYPE html>",
 		"<html lang=\"zh-CN\">",
 		"<head>",
 		"<meta charset=\"utf-8\">",
@@ -93,7 +93,7 @@
 	"scope": "html,go,python,php",
 	"prefix": "web",
 	"body": [
-		"<!doctype html>",
+		"<!DOCTYPE html>",
 		"<html lang=\"zh-CN\">",
 		"<head>",
 		"<meta charset=\"utf-8\">",
@@ -379,7 +379,7 @@
     "scope": "html,go,python,php",
     "prefix": "tailwindmob",
     "body": [
-      "<!doctype html>",
+      "<!DOCTYPE html>",
       "<html lang=\"zh-CN\" class=\"h-full\">",
       "<head>",
       "<meta charset=\"utf-8\">",
