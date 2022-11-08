@@ -75,12 +75,12 @@ vi TODO.md
 - [x] 完成任务2  
 ```
 
-### GitLens
+### ~~GitLens~~
 
 - 扩展标识符：eamodio.gitlens
 - 作用：git 增强工具
 
-### Git History
+### ~~Git History~~
 
 - 扩展标识符：donjayamanne.githistory
 - 作用：git 日志查看
@@ -95,6 +95,13 @@ vi TODO.md
     // Git Graph设置时间格式，默认是"Date & Time"
     "git-graph.dateFormat": "ISO Date & Time",
 ```
+
+### Markdown Preview Enhanced
+
+注: 原生已支持基本的Markdown预览功能。  
+  
+- 扩展标识符：shd101wyy.markdown-preview-enhanced
+- 作用：Markdown强大支持
 
 ### Code Runner
 
@@ -220,7 +227,7 @@ lua格式化工具
 - 扩展标识符：dotjoshjohnson.xml
 - 作用：XML 插件
 
-### Live Server
+### ~~Live Server~~
 
 - 扩展标识符：ritwickdey.liveserver
 - 作用：热更新调试
