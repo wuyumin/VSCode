@@ -2,16 +2,17 @@
 
 ### 如何使用有私钥密码的ssh协议的git？
 
+vi sshagent.sh
 ```bash
 eval $(ssh-agent -s) > /dev/null
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
 ```
 会自动设置`SSH_AUTH_SOCK`环境变量
 
 1. 打开命令行工具
 2. 运行SSH代理
   - windows系统：`start-ssh-agent`并输入私钥密码
-  - 类Unix系统：`ssh-agent $SHELL` 和 `ssh-add 私钥路径` (路径默认值是~/.ssh/id_rsa)，输入私钥密码(可能暂不能关掉命令行工具才起效，等git操作一次后就可以关掉命令行了)
+  - 类Unix系统：`ssh-agent $SHELL` 和 `ssh-add 私钥路径` (路径默认值是~/.ssh/id_ed25519)，输入私钥密码(可能暂不能关掉命令行工具才起效，等git操作一次后就可以关掉命令行了)
 3. 运行命令`code`来启动VSCode
 
 另外的思路：先启动VSCode，然后在VSCode命令行中运行SSH代理，接着其它操作。
