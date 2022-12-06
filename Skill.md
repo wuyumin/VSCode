@@ -6,6 +6,8 @@ vi sshagent.sh
 ```bash
 eval $(ssh-agent -s) > /dev/null
 ssh-add ~/.ssh/id_ed25519
+# 查看所有ssh-add -l
+# 删除单个ssh-add -d ~/.ssh/id_ed25519 删除所有ssh-add -D
 ```
 会自动设置`SSH_AUTH_SOCK`环境变量
 
