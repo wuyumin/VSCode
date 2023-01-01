@@ -181,7 +181,8 @@
 
 ```js
 "python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
-"python.terminal.activateEnvInCurrentTerminal": true,
+"python.terminal.activateEnvironment": true,
+"python.terminal.activateEnvInCurrentTerminal": false,
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 "python.formatting.yapfArgs": [
   "--style={indent_width: 2}"
