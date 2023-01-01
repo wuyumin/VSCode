@@ -126,10 +126,13 @@
 "[json][jsonc]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
+
 "[yaml]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "redhat.vscode-yaml",
   "editor.formatOnSave": true
 },
+"yaml.format.singleQuote": true,
+
 "[toml]": {
   "editor.formatOnSave": true
 },
