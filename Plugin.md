@@ -183,6 +183,8 @@ lua格式化工具
 - 扩展标识符：johnsoncodehk.volar
 - 作用：Vue3 插件
 
+TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vue.vscode-typescript-vue-plugin)  
+
 ### Vue VSCode Snippets
 
 - 扩展标识符：sdras.vue-vscode-snippets
