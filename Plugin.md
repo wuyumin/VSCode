@@ -180,7 +180,7 @@ lua格式化工具
 
 ### Volar(Vue3 插件)
 
-- 扩展标识符：johnsoncodehk.volar
+- 扩展标识符：Vue.volar
 - 作用：Vue3 插件
 
 TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vue.vscode-typescript-vue-plugin)  
