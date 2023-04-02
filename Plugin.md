@@ -130,6 +130,7 @@ vi TODO.md
 
 ### C/C++语言插件
 
+Microsoft C++
 - 扩展标识符：ms-vscode.cpptools
 - 作用：C/C++语言插件
 
@@ -147,6 +148,11 @@ rust-analyzer
 crates
 - 扩展标识符：serayuzgur.crates
 - 作用：Rust包管理
+
+CodeLLDB
+- 扩展标识符：vadimcn.vscode-lldb
+- 作用：Rust调试
+windows系统直接使用Microsoft C++就可以了
 
 ### dart语言/flutter插件
 
