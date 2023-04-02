@@ -200,6 +200,7 @@
 "rust-analyzer.inlayHints.chainingHints.enable": false,
 "rust-analyzer.inlayHints.closingBraceHints.enable": false,
 "rust-analyzer.cargo.buildScripts.enable": true,
+"rust-analyzer.lens.enable": false,
 ```
 
 ## 键盘快捷方式设置
