@@ -149,6 +149,10 @@ crates
 - 扩展标识符：serayuzgur.crates
 - 作用：Rust包管理
 
+Flowistry
+- 扩展标识符：wcrichton.flowistry
+- 作用：智能代码提示
+
 CodeLLDB
 - 扩展标识符：vadimcn.vscode-lldb
 - 作用：Rust调试
