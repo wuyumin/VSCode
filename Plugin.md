@@ -149,6 +149,10 @@ crates
 - 扩展标识符：serayuzgur.crates
 - 作用：Rust包管理
 
+Error Lens
+- 扩展标识符：usernamehw.errorlens
+- 作用：更好的错误展示
+
 CodeLLDB
 - 扩展标识符：vadimcn.vscode-lldb
 - 作用：Rust调试
