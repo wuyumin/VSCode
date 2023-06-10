@@ -105,6 +105,11 @@ vi TODO.md
 - 扩展标识符：shd101wyy.markdown-preview-enhanced
 - 作用：Markdown强大支持
 
+### Error Lens
+
+- 扩展标识符：usernamehw.errorlens
+- 作用：更好的错误展示
+
 ### Code Runner
 
 - 扩展标识符：formulahendry.code-runner
@@ -148,10 +153,6 @@ rust-analyzer
 crates
 - 扩展标识符：serayuzgur.crates
 - 作用：Rust包管理
-
-Error Lens
-- 扩展标识符：usernamehw.errorlens
-- 作用：更好的错误展示
 
 CodeLLDB
 - 扩展标识符：vadimcn.vscode-lldb
