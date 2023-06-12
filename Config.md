@@ -152,6 +152,7 @@
 ### go语言设置
 
 ```js
+"go.toolsManagement.checkForUpdates": "off", // 取消gopls更新提示
 "go.useLanguageServer": true, // Go语言启用LanguageServer
 "go.formatTool": "goimports", // 格式化工具
 // staticcheck代码规范配置
