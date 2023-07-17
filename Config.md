@@ -43,9 +43,10 @@
     "**/.idea": true, // 排除JetBrains系列软件配置文件
   },
 
-  // 配置语言的文件关联
+  // 配置语言的文件关联(自定义文件扩展名映射)
   "files.associations": {
     "*.json": "jsonc",
+    "*.rc": "properties",
   },
 
 }
