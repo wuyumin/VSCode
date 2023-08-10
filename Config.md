@@ -190,7 +190,7 @@
 "python.terminal.activateEnvInCurrentTerminal": false,
 "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
 "python.formatting.yapfArgs": [
-  "--style={indent_width: 2, spaces_before_comment: 1}"
+  "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
 ],
 ```
 
