@@ -133,6 +133,9 @@ vi TODO.md
 - 扩展标识符：ms-python.python
 - 作用：Python语言插件
 
+- 扩展标识符：ms-python.autopep8
+- 作用：autopep8代码格式化插件
+
 ### C/C++语言插件
 
 Microsoft C++

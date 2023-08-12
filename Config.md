@@ -8,7 +8,7 @@
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
 ```js
 {
-  // "http.proxy": "http://127.0.0.1:1080", // 设置代理
+  // "http.proxy": "http://127.0.0.1:7890", // 设置代理
   // "http.proxyStrictSSL": false, // 验证证书
   // "editor.formatOnSave": true, // 保存时自动格式化
 
@@ -26,6 +26,7 @@
   "extensions.autoUpdate": false, // 取消自动更新扩展
   "extensions.autoCheckUpdates": false, // 取消扩展更新检查
   "security.workspace.trust.enabled": false, // 工作区信任处理
+  "workbench.colorTheme": "Visual Studio Dark", // 色彩主题
   "workbench.startupEditor": "none", // 编辑器启动后默认显示
   "workbench.editor.openPositioning": "last", // 新打开页的显示位置
   "editor.renderWhitespace": "all", // 显示隐藏的tab和空格
@@ -138,7 +139,7 @@
   "editor.formatOnSave": true
 },
 "[python]": {
-  "editor.defaultFormatter": "ms-python.python",
+  "editor.defaultFormatter": "ms-python.autopep8", // 需要安装autopep8插件 原来是"editor.defaultFormatter": "ms-python.python",
   "editor.formatOnSave": true
 },
 "[rust]": {
@@ -185,13 +186,14 @@
 ### python语言设置
 
 ```js
-"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
-"python.terminal.activateEnvironment": true,
+"python.defaultInterpreterPath": "D:\\Python\\pythonVenv\\.venv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
 "python.terminal.activateEnvInCurrentTerminal": false,
-"python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要sudo)
-"python.formatting.yapfArgs": [
-  "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
-],
+"python.terminal.activateEnvironment": true,
+"autopep8.args": ["--global-config", "C:\\Users\\user\\.config\\pep8"], // 根据autopep8命令行参数来配置
+// "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要超级管理员权限)
+// "python.formatting.yapfArgs": [
+//   "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
+// ],
 ```
 
 ### rust语言设置
