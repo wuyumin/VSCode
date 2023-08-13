@@ -66,7 +66,8 @@
 }
 ```
 
-`项目文件夹设置：`项目文件夹里.vscode文件夹下的settings.json文件。
+`项目设置`项目文件夹里的.vscode/settings.json文件。  
+`项目推荐插件`项目文件夹里的.vscode/extensions.json文件。  
 
 ### windows系统设置命令终端
 
