@@ -133,8 +133,11 @@ vi TODO.md
 - 扩展标识符：ms-python.python
 - 作用：Python语言插件
 
-- 扩展标识符：ms-python.autopep8
-- 作用：autopep8代码格式化插件
+- 扩展标识符：ms-python.black-formatter
+- 作用：Black Formatter代码格式化插件
+
+- 扩展标识符：charliermarsh.ruff
+- 作用：Ruff代码质量检查插件
 
 ### C/C++语言插件
 

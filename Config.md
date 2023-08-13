@@ -139,8 +139,12 @@
   "editor.formatOnSave": true
 },
 "[python]": {
-  "editor.defaultFormatter": "ms-python.autopep8", // 需要安装autopep8插件 原来是"editor.defaultFormatter": "ms-python.python",
-  "editor.formatOnSave": true
+  "editor.defaultFormatter": "ms-python.black-formatter", // 需要安装Black Formatter插件 原来是"editor.defaultFormatter": "ms-python.python",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true,
+    "source.organizeImports": true,
+  },
 },
 "[rust]": {
   "editor.formatOnSave": true
@@ -187,9 +191,11 @@
 
 ```js
 "python.defaultInterpreterPath": "D:\\Python\\pythonVenv\\.venv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
+//"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
 "python.terminal.activateEnvironment": true,
-"autopep8.args": ["--global-config", "C:\\Users\\user\\.config\\pep8"], // 根据autopep8命令行参数来配置
+"black-formatter.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
+"ruff.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
 // "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要超级管理员权限)
 // "python.formatting.yapfArgs": [
 //   "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
