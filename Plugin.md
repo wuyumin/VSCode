@@ -139,6 +139,9 @@ vi TODO.md
 - 扩展标识符：charliermarsh.ruff
 - 作用：Ruff代码质量检查插件
 
+- 扩展标识符：njpwerner.autodocstring
+- 作用：自动生成docstring
+
 ### C/C++语言插件
 
 Microsoft C++
