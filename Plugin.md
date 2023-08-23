@@ -279,6 +279,12 @@ TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vu
 - 扩展标识符：xaver.clang-format
 - 作用：代码格式化
 
+### typst排版工具
+
+- 名称：Typst LSP
+- 扩展标识符：nvarner.typst-lsp
+- 作用：typst排版工具
+
 ### Thunder Client
 
 - 扩展标识符：rangav.vscode-thunder-client
