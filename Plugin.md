@@ -1,21 +1,22 @@
 # 常用插件
 
 有些插件安装后可能需要重启才生效。  
-插件一般存放在：用户目录的.vscode/extensions/扩展标识符前缀的文件夹里。  
+插件一般存放在: 用户目录的.vscode/extensions/扩展标识符前缀的文件夹里。  
 `xxx Extension Pack`一般是工具包组合(多个插件组合)。如`C/C++ Extension Pack`是C/C++的工具包组合。
 
 ### 简体中文语言插件
 
 搜索“chinese”
 
-- 扩展标识符：ms-ceintl.vscode-language-pack-zh-hans
-- 作用：简体中文语言
+- 名称: Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+- 扩展标识符: ms-ceintl.vscode-language-pack-zh-hans
+- 作用: 简体中文语言
 
 ### 各个语言插件
 
 <https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Downloads>
 
-默认支持语言：HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。  
+默认支持语言: HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。  
 vue等可能需要配合jsconfig.json文件才能更好定位跳转(如webpack别名)  
 jsconfig.json (文件路径是相对于jsconfig.json的位置)
 ```json
@@ -34,23 +35,27 @@ jsconfig.json (文件路径是相对于jsconfig.json的位置)
 
 #### Remote - SSH
 
-- 扩展标识符：ms-vscode-remote.remote-ssh
-- 作用：远程计算机/虚拟机的远程开发
+- 名称: Remote - SSH
+- 扩展标识符: ms-vscode-remote.remote-ssh
+- 作用: 远程计算机/虚拟机的远程开发
 
 #### Remote - WSL
 
-- 扩展标识符：ms-vscode-remote.remote-wsl
-- 作用：windows下的Linux子系统WSL(Windows Subsystem for Linux)的远程开发
+- 名称: WSL
+- 扩展标识符: ms-vscode-remote.remote-wsl
+- 作用: windows下的Linux子系统WSL(Windows Subsystem for Linux)的远程开发
 
 #### Remote - Containers
 
-- 扩展标识符：ms-vscode-remote.remote-containers
-- 作用：容器的远程开发
+- 名称: Dev Containers
+- 扩展标识符: ms-vscode-remote.remote-containers
+- 作用: 容器的远程开发
 
 ### TODO.md Kanban Board
 
-- 扩展标识符：coddx.coddx-alpha
-- 作用：看板式任务管理(通过命令面板搜索kanban使用)
+- 名称: TODO.md Kanban Board
+- 扩展标识符: coddx.coddx-alpha
+- 作用: 看板式任务管理(通过命令面板搜索kanban使用)
 
 vi TODO.md
 ```md
@@ -79,18 +84,21 @@ vi TODO.md
 
 ### ~~GitLens~~
 
-- 扩展标识符：eamodio.gitlens
-- 作用：git 增强工具
+- 名称: GitLens
+- 扩展标识符: eamodio.gitlens
+- 作用: git 增强工具
 
 ### ~~Git History~~
 
-- 扩展标识符：donjayamanne.githistory
-- 作用：git 日志查看
+- 名称: Git History
+- 扩展标识符: donjayamanne.githistory
+- 作用: git 日志查看
 
 ### Git Graph
 
-- 扩展标识符：mhutchie.git-graph
-- 作用：漂亮的 git 提交历史查看
+- 名称: Git Graph
+- 扩展标识符: mhutchie.git-graph
+- 作用: 漂亮的git提交历史查看
 
 设置
 ```js
@@ -102,164 +110,192 @@ vi TODO.md
 
 注: 原生已支持基本的Markdown预览功能。  
   
-- 扩展标识符：shd101wyy.markdown-preview-enhanced
-- 作用：Markdown强大支持
+- 名称: Markdown Preview Enhanced
+- 扩展标识符: shd101wyy.markdown-preview-enhanced
+- 作用: Markdown强大支持
 
 ### Error Lens
 
-- 扩展标识符：usernamehw.errorlens
-- 作用：更好的错误展示
+- 名称: Error Lens
+- 扩展标识符: usernamehw.errorlens
+- 作用: 更好的错误展示
 
 ### Code Runner
 
-- 扩展标识符：formulahendry.code-runner
-- 作用：直接运行对应语言的代码
-- 注：配置项code-runner.executorMap是设置各种语言运行环境(具体配置见插件介绍页)
+- 名称: Code Runner
+- 扩展标识符: formulahendry.code-runner
+- 作用: 直接运行对应语言的代码
+- 注: 配置项code-runner.executorMap是设置各种语言运行环境(具体配置见插件介绍页)
 
 ### Sort lines
 
-- 扩展标识符：tyriar.sort-lines
-- 作用：按字母排序代码行
+- 名称: Sort lines
+- 扩展标识符: tyriar.sort-lines
+- 作用: 按字母排序代码行
 
 ### Go语言插件
 
-- 扩展标识符：ms-vscode.go
-- 作用：Go语言插件
-- 注：还要安装一些Go第三方包  
+- 名称: Go
+- 扩展标识符: ms-vscode.go
+- 作用: Go语言插件
+- 注: 还要安装一些Go第三方包  
   插件参照 <https://github.com/Microsoft/vscode-go/blob/master/src/goInstallTools.ts> allTools变量
 
 ### Python语言插件
 
-- 扩展标识符：ms-python.python
-- 作用：Python语言插件
+- 名称: Python
+- 扩展标识符: ms-python.python
+- 作用: Python语言插件
 
-- 扩展标识符：ms-python.black-formatter
-- 作用：Black Formatter代码格式化插件
+- 名称: Black Formatter
+- 扩展标识符: ms-python.black-formatter
+- 作用: Black Formatter代码格式化插件
 
-- 扩展标识符：charliermarsh.ruff
-- 作用：Ruff代码质量检查插件
+- 名称: Ruff
+- 扩展标识符: charliermarsh.ruff
+- 作用: Ruff代码质量检查插件
 
-- 扩展标识符：njpwerner.autodocstring
-- 作用：自动生成docstring
+- 名称: autoDocstring - Python Docstring Generator
+- 扩展标识符: njpwerner.autodocstring
+- 作用: 自动生成docstring
 
 ### C/C++语言插件
 
-Microsoft C++
-- 扩展标识符：ms-vscode.cpptools
-- 作用：C/C++语言插件
+- 名称: C/C++
+- 扩展标识符: ms-vscode.cpptools
+- 作用: C/C++语言插件
+
+- 名称: Clang-Format
+- 扩展标识符: xaver.clang-format
+- 作用: 代码格式化
 
 ### PHP语言插件
 
-- 扩展标识符：felixfbecker.php-intellisense
-- 作用：PHP语言插件
+- 名称: PHP Intelephense
+- 扩展标识符: bmewburn.vscode-intelephense-client
+- 作用: PHP语言插件
 
 ### Rust语言插件
 
-rust-analyzer
-- 扩展标识符：rust-lang.rust-analyzer
-- 作用：Rust语言插件
+- 名称: rust-analyzer
+- 扩展标识符: rust-lang.rust-analyzer
+- 作用: Rust语言插件
 
-crates
-- 扩展标识符：serayuzgur.crates
-- 作用：Rust包管理
+- 名称: crates
+- 扩展标识符: serayuzgur.crates
+- 作用: Rust包管理
 
-CodeLLDB
-- 扩展标识符：vadimcn.vscode-lldb
-- 作用：Rust调试
+- 名称: CodeLLDB
+- 扩展标识符: vadimcn.vscode-lldb
+- 作用: Rust调试
 windows系统直接使用Microsoft C++就可以了
 
 ### dart语言/flutter插件
 
-Dart
-- 扩展标识符：Dart-Code.dart-code
-- 作用：dart语言插件
+- 名称: Dart
+- 扩展标识符: Dart-Code.dart-code
+- 作用: dart语言插件
 
-Flutter
-- 扩展标识符：Dart-Code.flutter
-- 作用：Flutter插件
+- 名称: Flutter
+- 扩展标识符: Dart-Code.flutter
+- 作用: Flutter插件
 
 ### Lua语言插件
 
-lua语法提示
-- 扩展标识符：sumneko.lua
-- 作用：Lua语言插件
+- 名称: Lua
+- 扩展标识符: sumneko.lua
+- 作用: lua语法提示
 
-lua格式化工具
-- 扩展标识符：koihik.vscode-lua-format
-- 作用：Lua语言插件
+- 名称: vscode-lua-format
+- 扩展标识符: koihik.vscode-lua-format
+- 作用: lua格式化工具
 
 ### Deno语言插件
 
-- 扩展标识符：denoland.vscode-deno
-- 作用：Deno语言插件
-
-### Vetur(Vue2 插件)
-
-- 扩展标识符：octref.vetur
-- 作用：Vue2 插件
+- 名称: Deno
+- 扩展标识符: denoland.vscode-deno
+- 作用: Deno语言插件
 
 ### Volar(Vue3 插件)
 
-- 扩展标识符：Vue.volar
-- 作用：Vue3 插件
+- 名称: Vue Language Features (Volar)
+- 扩展标识符: Vue.volar
+- 作用: Vue3插件
 
 TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vue.vscode-typescript-vue-plugin)  
 
+### Vetur(Vue2 插件)
+
+- 名称: Vetur
+- 扩展标识符: octref.vetur
+- 作用: Vue2插件
+
 ### Vue VSCode Snippets
 
-- 扩展标识符：sdras.vue-vscode-snippets
-- 作用：Vue代码片段
+- 名称: Vue VSCode Snippets
+- 扩展标识符: sdras.vue-vscode-snippets
+- 作用: Vue代码片段
 
 ### Tailwind CSS IntelliSense
 
-- 扩展标识符：bradlc.vscode-tailwindcss
-- 作用：tailwind 插件
-- 注：需要npm安装tailwindcss及其依赖`npm i tailwindcss@2.2.7 postcss@8.3.6 autoprefixer@10.3.1 -D`和`npx tailwind init`生成tailwind.config.js配置文件插件后才生效，敲class时可能还需要前面一个`空格`才有提示。
+- 名称: Tailwind CSS IntelliSense
+- 扩展标识符: bradlc.vscode-tailwindcss
+- 作用: tailwind插件
+- 注: 需要npm安装tailwindcss及其依赖`npm i tailwindcss@2.2.7 postcss@8.3.6 autoprefixer@10.3.1 -D`和`npx tailwind init`生成tailwind.config.js配置文件插件后才生效，敲class时可能还需要前面一个`空格`才有提示。
 
-### Docker 插件
+### Docker插件
 
-- 扩展标识符：peterjausovec.vscode-docker
-- 作用：Docker 插件
+- 名称: Docker
+- 扩展标识符: peterjausovec.vscode-docker
+- 作用: Docker插件
 
 ### Todo Tree
 
-- 扩展标识符：Gruntfuggly.todo-tree
-- 作用：TODO 插件
+- 名称: Todo Tree
+- 扩展标识符: Gruntfuggly.todo-tree
+- 作用: TODO插件
 
 ### vscode-proto3
 
-- 扩展标识符：zxh404.vscode-proto3
-- 作用：Protobuf 3 插件
+- 名称: vscode-proto3
+- 扩展标识符: zxh404.vscode-proto3
+- 作用: Protobuf 3插件
 
 ### Ansible
 
-- 扩展标识符：vscoss.vscode-ansible
-- 作用：Ansible 插件
+- 名称: Ansible
+- 扩展标识符: redhat.ansible
+- 作用: Ansible插件
 
 ### YAML
 
-- 扩展标识符：redhat.vscode-yaml
-- 作用：YAML 插件
+- 名称: YAML
+- 扩展标识符: redhat.vscode-yaml
+- 作用: YAML插件
 
 ### Even Better TOML
 
-- 扩展标识符：tamasfe.even-better-toml
-- 作用：TOML 插件
+- 名称: Even Better TOML
+- 扩展标识符: tamasfe.even-better-toml
+- 作用: TOML插件
 
 ### XML Tools
 
-- 扩展标识符：dotjoshjohnson.xml
-- 作用：XML 插件
+- 名称: XML Tools
+- 扩展标识符: dotjoshjohnson.xml
+- 作用: XML插件
 
 ### ~~Live Server~~
 
-- 扩展标识符：ritwickdey.liveserver
-- 作用：热更新调试
+- 名称: Live Server
+- 扩展标识符: ritwickdey.liveserver
+- 作用: 热更新调试
 
 ### Power Mode
 
-- 扩展标识符：hoovercj.vscode-power-mode
-- 作用：炫酷特效
+- 名称: Power Mode
+- 扩展标识符: hoovercj.vscode-power-mode
+- 作用: 炫酷特效
 
 设置
 ```js
@@ -271,29 +307,27 @@ TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vu
 
 ### Prettier - Code formatter
 
-- 扩展标识符：esbenp.prettier-vscode
-- 作用：代码格式化
-
-### Clang-Format
-
-- 扩展标识符：xaver.clang-format
-- 作用：代码格式化
+- 名称: Prettier - Code formatter
+- 扩展标识符: esbenp.prettier-vscode
+- 作用: 代码格式化
 
 ### typst排版工具
 
-- 名称：Typst LSP
-- 扩展标识符：nvarner.typst-lsp
-- 作用：typst排版工具
+- 名称: Typst LSP
+- 扩展标识符: nvarner.typst-lsp
+- 作用: typst排版工具
 
 ### Thunder Client
 
-- 扩展标识符：rangav.vscode-thunder-client
-- 作用：接口请求(相当于postman)
+- 名称: Thunder Client
+- 扩展标识符: rangav.vscode-thunder-client
+- 作用: 接口请求(相当于postman)
 
 ### REST Client
 
-- 扩展标识符：humao.rest-client
-- 作用：接口请求(类似于postman、curl)
+- 名称: REST Client
+- 扩展标识符: humao.rest-client
+- 作用: 接口请求(类似于postman、curl)
 
 官网文档<https://github.com/Huachao/vscode-restclient>  
 设置
