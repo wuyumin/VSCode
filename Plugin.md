@@ -147,9 +147,10 @@ vi TODO.md
 - 扩展标识符: ms-python.python
 - 作用: Python语言插件
 
-- 名称: Black Formatter
-- 扩展标识符: ms-python.black-formatter
-- 作用: Black Formatter代码格式化插件
+- 名称: autopep8
+- 扩展标识符: ms-python.autopep8
+- 作用: autopep8代码格式化插件
+如果需要black，请安装Black Formatter
 
 - 名称: Ruff
 - 扩展标识符: charliermarsh.ruff
