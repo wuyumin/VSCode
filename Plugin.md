@@ -147,14 +147,11 @@ vi TODO.md
 - 扩展标识符: ms-python.python
 - 作用: Python语言插件
 
-- 名称: autopep8
-- 扩展标识符: ms-python.autopep8
-- 作用: autopep8代码格式化插件
-如果需要black，请安装Black Formatter
-
 - 名称: Ruff
 - 扩展标识符: charliermarsh.ruff
-- 作用: Ruff代码质量检查插件
+- 作用: Ruff代码格式化和代码质量检查插件
+如果需要autopep8，请安装autopep8  
+如果需要black，请安装Black Formatter  
 
 - 名称: autoDocstring - Python Docstring Generator
 - 扩展标识符: njpwerner.autodocstring

@@ -140,7 +140,7 @@
   "editor.formatOnSave": true
 },
 "[python]": {
-  "editor.defaultFormatter": "ms-python.autopep8", // 需要安装autopep8插件 原来是"editor.defaultFormatter": "ms-python.python",
+  "editor.defaultFormatter": "charliermarsh.ruff", // 原来是"editor.defaultFormatter": "ms-python.python",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     // "source.fixAll": true,
@@ -195,8 +195,8 @@
 //"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
 "python.terminal.activateEnvironment": true,
-"autopep8.args": ["--global-config=C:\\Users\\user\\.config\\pyproject.toml"],
-"ruff.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
+"ruff.format.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
+"ruff.lint.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
 // "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要超级管理员权限)
 // "python.formatting.yapfArgs": [
 //   "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
