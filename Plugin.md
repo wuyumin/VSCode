@@ -300,7 +300,9 @@ TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vu
     // Power Mode炫酷特效插件设置
     "powermode.enabled": true, // 是否开启
     "powermode.presets": "particles", // 样式效果
-    "powermode.enableShake": false, // 是否抖动
+    "powermode.shake.enabled": false, // 是否抖动
+    "powermode.combo.timerEnabled":"hide",
+    "powermode.combo.counterEnabled": "hide",
 ```
 
 ### Prettier - Code formatter
