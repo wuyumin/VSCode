@@ -37,6 +37,7 @@
   "explorer.autoReveal": false, // 资源管理器打开文件时自动显示并选择
   "explorer.compactFolders": false, // 不使用紧凑显示文件夹
   "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
+  "window.commandCenter": false, // 隐藏命令中心
   // 配置排除的文件和文件夹
   "files.exclude": {
     // "**/.git": false, // 临时关闭排除
