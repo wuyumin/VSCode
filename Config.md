@@ -38,11 +38,18 @@
   "explorer.compactFolders": false, // 不使用紧凑显示文件夹
   "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
   "window.commandCenter": false, // 隐藏命令中心
-  // 配置排除的文件和文件夹
+  // 显示:排除的文件和文件夹
   "files.exclude": {
     // "**/.git": false, // 临时关闭排除
     "**/.DS_Store": false,
     "**/.idea": true, // 排除JetBrains系列软件配置文件
+  },
+  // 搜索:排除的文件和文件夹
+  "search.exclude": {
+    // "**/node_modules": true,
+    // "**/bower_components": true,
+    // "**/*.code-search": true,
+    "**/target": true // rust编译生成的文件
   },
 
   // 配置语言的文件关联(自定义文件扩展名映射)
