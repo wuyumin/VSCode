@@ -76,6 +76,8 @@
 
 `项目设置`项目文件夹里的.vscode/settings.json文件。  
 `项目推荐插件`项目文件夹里的.vscode/extensions.json文件。  
+  
+管理受信任的域(Manage Trusted Domains): 方便快速打开外部链接。  
 
 ### windows系统设置命令终端
 
