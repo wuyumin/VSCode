@@ -49,7 +49,10 @@
     // "**/node_modules": true,
     // "**/bower_components": true,
     // "**/*.code-search": true,
-    "**/target": true // rust编译生成的文件
+    "**/go.sum": true, // go依赖自动文件
+    "**/go.work.sum": true, // go工作区自动文件
+    "**/Cargo.lock": true, // rust依赖自动文件
+    "**/target": true // rust编译生成
   },
 
   // 配置语言的文件关联(自定义文件扩展名映射)
