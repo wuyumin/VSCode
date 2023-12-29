@@ -178,7 +178,7 @@
 // staticcheck代码规范配置
 "go.lintFlags": [
   "-checks",
-  "all,-ST1000,-ST1001,-ST1003,-ST1006,-ST1020,-ST1021,-ST1022"
+  "all,-ST1000,-ST1001,-ST1003,-ST1006,-ST1020,-ST1021,-ST1022,-U1000"
 ],
 // 结构体tag配置(参考https://github.com/fatih/gomodifytags)
 "go.addTags": {
