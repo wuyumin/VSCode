@@ -42,13 +42,15 @@
   "files.exclude": {
     // "**/.git": false, // 临时关闭排除
     "**/.DS_Store": false,
-    "**/.idea": true, // 排除JetBrains系列软件配置文件
+    "**/.idea": true, // JetBrains系列软件配置文件
   },
   // 搜索:排除的文件和文件夹
   "search.exclude": {
     // "**/node_modules": true,
     // "**/bower_components": true,
     // "**/*.code-search": true,
+    "**/.git": true, // git文件
+    "**/.idea": true, // JetBrains系列软件配置文件
     "**/go.sum": true, // go依赖自动文件
     "**/go.work.sum": true, // go工作区自动文件
     "**/Cargo.lock": true, // rust依赖自动文件
