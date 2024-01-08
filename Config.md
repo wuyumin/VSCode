@@ -69,6 +69,12 @@
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
 ```js
 {
+	// 单行注释
+
+	/*
+	多行注释
+	*/
+
 	"folders": [
 		{
 			"path": "E:\\Projects\\PythonTest"
