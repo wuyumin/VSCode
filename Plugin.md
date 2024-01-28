@@ -305,6 +305,17 @@ TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vu
     "powermode.combo.counterEnabled": "hide",
 ```
 
+### Biome
+
+- 名称: Biome
+- 扩展标识符: biomejs.biome
+- 作用: 代码格式化
+
+设置
+```js
+"biome.lspBin": "/Users/user/d/bin/biome",
+```
+
 ### Prettier - Code formatter
 
 - 名称: Prettier - Code formatter
