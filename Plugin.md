@@ -214,6 +214,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: denoland.vscode-deno
 - 作用: Deno语言插件
 
+### shell脚本插件
+
+- 名称: shell-format
+- 扩展标识符: foxundermoon.shell-format
+- 作用: shell脚本格式化工具
+
 ### Volar(Vue3 插件)
 
 - 名称: Vue Language Features (Volar)
