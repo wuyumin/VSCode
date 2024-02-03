@@ -133,6 +133,21 @@ vi TODO.md
 - 扩展标识符: tyriar.sort-lines
 - 作用: 按字母排序代码行
 
+### Rust语言插件
+
+- 名称: rust-analyzer
+- 扩展标识符: rust-lang.rust-analyzer
+- 作用: Rust语言插件
+
+- 名称: crates
+- 扩展标识符: serayuzgur.crates
+- 作用: Rust包管理
+
+- 名称: CodeLLDB
+- 扩展标识符: vadimcn.vscode-lldb
+- 作用: Rust调试
+windows系统直接使用Microsoft C++就可以了
+
 ### Go语言插件
 
 - 名称: Go
@@ -172,21 +187,6 @@ vi TODO.md
 - 名称: PHP Intelephense
 - 扩展标识符: bmewburn.vscode-intelephense-client
 - 作用: PHP语言插件
-
-### Rust语言插件
-
-- 名称: rust-analyzer
-- 扩展标识符: rust-lang.rust-analyzer
-- 作用: Rust语言插件
-
-- 名称: crates
-- 扩展标识符: serayuzgur.crates
-- 作用: Rust包管理
-
-- 名称: CodeLLDB
-- 扩展标识符: vadimcn.vscode-lldb
-- 作用: Rust调试
-windows系统直接使用Microsoft C++就可以了
 
 ### dart语言/flutter插件
 
