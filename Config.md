@@ -213,7 +213,7 @@
 ### python语言设置
 
 ```js
-"python.defaultInterpreterPath": "D:\\Python\\pythonVenv\\.venv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
+"python.defaultInterpreterPath": "D:\\Python\\miniconda\\envs\\pythonVenv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
 //"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
 "python.terminal.activateEnvironment": true,
