@@ -194,6 +194,7 @@
   // 可配置多个，英文逗号隔开
   "tags": "json",
   // json=,xml=,form=,validate=,gorm=,bson=,redis=
+  // 可配置多个，英文逗号隔开，多个相同最终会合并一起(如json=omitempty,json=options2,yaml=omitempty)
   "options": "json=",
   "template": "{field}",
   // snakecase蛇形 camelcase驼峰
