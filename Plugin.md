@@ -16,7 +16,7 @@
 
 <https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Downloads>
 
-默认支持语言: HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。  
+默认支持语言或运行时: HTML(HTML5)、CSS(CSS3)、JavaScript、NodeJS、TypeScript。  
 vue等可能需要配合jsconfig.json文件才能更好定位跳转(如webpack别名)  
 jsconfig.json (文件路径是相对于jsconfig.json的位置)
 ```json
@@ -155,6 +155,12 @@ windows系统直接使用Microsoft C++就可以了
 - 作用: Go语言插件
 - 注: 还要安装一些Go第三方包  
   插件参照 <https://github.com/Microsoft/vscode-go/blob/master/src/goInstallTools.ts> allTools变量
+
+### JavaScript语言插件
+
+- 名称: packages
+- 扩展标识符: ririd.packages
+- 作用: npm包管理
 
 ### Python语言插件
 
