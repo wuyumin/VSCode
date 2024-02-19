@@ -180,6 +180,9 @@
 ### go语言设置
 
 ```js
+// "go.toolsEnvVars": {
+//   "GOPROXY": "https://goproxy.cn,direct"
+// },
 "go.toolsManagement.checkForUpdates": "off", // 取消gopls更新提示
 "go.useLanguageServer": true, // Go语言启用LanguageServer
 "go.formatTool": "goimports", // 格式化工具
