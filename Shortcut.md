@@ -38,6 +38,10 @@
 
 `Ctrl + G`定位特定的一行
 
+`Ctrl + K + 0(是数字)`折叠所有(所在文件) `Ctrl + K + J`展开所有(所在文件)
+
+`Ctrl + Shift + [`折叠(光标所处) `Ctrl + Shift + ]`展开(光标所处)
+
 `Ctrl + F`查找
 
 `Ctrl + H`替换
