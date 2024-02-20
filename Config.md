@@ -144,7 +144,7 @@
   "editor.formatOnSave": true,
 },
 "[vue]": {
-  "editor.defaultFormatter": "octref.vetur",
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // vue3: Vue.volar vue2: octref.vetur
   "editor.formatOnSave": true
 },
 "[json][jsonc]": {
