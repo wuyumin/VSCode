@@ -1,30 +1,30 @@
 {
-  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
-  // Placeholders with the same ids are connected.
-  // Example:
-  // "Print to console": {
-  //  "scope": "javascript,typescript",
-  //  "prefix": "log", // 单个
-  //  "prefix": ["log", "logAlias"], // 多个
-  //  "body": [
-  //    "console.log('$1');",
-  //    "$2"
-  //  ],
-  //  "description": "Log output to console"
-  // }
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log", // 单个
+  // 	"prefix": ["log", "logAlias"], // 多个
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
 
-  // scope标识符 https://code.visualstudio.com/docs/languages/identifiers
+	// scope标识符 https://code.visualstudio.com/docs/languages/identifiers
 
-  // 手机版基本CSS
-  "user_cssmob": {
-  "scope": "css,html,go,rust,python",
-  "prefix": "cssmob",
-  "body": [
-    "${1:@charset \"utf-8\";}",
+	// 手机版基本CSS
+	"user_cssmob": {
+	"scope": "css,html,go,rust,python",
+	"prefix": "cssmob",
+	"body": [
+		"${1:@charset \"utf-8\";}",
         "*{margin: 0 auto;padding: 0;}",
         "html{-webkit-text-size-adjust: none;font-size: ${2:15px};}",
         "body{background: ${3:#e6e6e6};color: ${4:#333};font-family: ${5:\"helvetica neue\",helvetica,arial,sans-serif};}",
@@ -36,270 +36,250 @@
         ".clear:after{display: block;clear: both;content: \"\";visibility: hidden;height: 0;}",
         ".clear{zoom: 1;}",
         "#app{max-width: ${6:640px};background: ${7:#fff};}"
-  ],
-  "description": "手机版基本CSS"
-  },
+	],
+	"description": "手机版基本CSS"
+	},
 
-  // 电脑版基本CSS
-  "user_cssweb": {
-  "scope": "css,html,go,rust,python",
-  "prefix": "cssweb",
-  "body": [
-    "${1:@charset \"utf-8\";}",
-    "*{margin: 0 auto;padding: 0;}",
-    "html{-webkit-text-size-adjust: none;font-size: ${2:14px};}",
-    "body{background: ${3:#fff};color: ${4:#333};font-family: ${5:\"helvetica neue\",helvetica,arial,sans-serif};min-width: ${6:1000px};}${7:/*body的min-width防手机浏览电脑版时子元素width: 100%;宽度出现空白*/}",
-    "img{border: none;}",
-    "a{text-decoration: none;}",
-    "a:focus{outline: none;-moz-outline: none;}",
-    "ul{list-style: none;}",
-    "h3{font-size: 100%;font-weight: normal;}",
-    ".clear:after{display: block;clear: both;content: \"\";visibility: hidden;height: 0;}",
-    ".clear{zoom: 1;}",
-    "#app{}"
-  ],
-  "description": "电脑版基本CSS"
-  },
+	// 电脑版基本CSS
+	"user_cssweb": {
+	"scope": "css,html,go,rust,python",
+	"prefix": "cssweb",
+	"body": [
+		"${1:@charset \"utf-8\";}",
+		"*{margin: 0 auto;padding: 0;}",
+		"html{-webkit-text-size-adjust: none;font-size: ${2:14px};}",
+		"body{background: ${3:#fff};color: ${4:#333};font-family: ${5:\"helvetica neue\",helvetica,arial,sans-serif};min-width: ${6:1000px};}${7:/*body的min-width防手机浏览电脑版时子元素width: 100%;宽度出现空白*/}",
+		"img{border: none;}",
+		"a{text-decoration: none;}",
+		"a:focus{outline: none;-moz-outline: none;}",
+		"ul{list-style: none;}",
+		"h3{font-size: 100%;font-weight: normal;}",
+		".clear:after{display: block;clear: both;content: \"\";visibility: hidden;height: 0;}",
+		".clear{zoom: 1;}",
+		"#app{}"
+	],
+	"description": "电脑版基本CSS"
+	},
 
-  // 手机版基本网页
-  "user_mob": {
-  "scope": "html,go,rust,python",
-  "prefix": "mob",
-  "body": [
-    "<!DOCTYPE html>",
-    "<html lang=\"zh-CN\">",
-    "<head>",
-    "<meta charset=\"utf-8\">",
-    "<title>${1:标题}</title>",
-    "<meta name=\"keywords\" content=\"${2:关键字1,关键字2}\">",
-    "<meta name=\"description\" content=\"${3:描述}\">",
-    "<meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover\">",
-    "<meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\">",
-    "<link rel=\"stylesheet\" href=\"${4:./css/global.css}\">",
-    "<script src=\"${5:./js/global.js}\"></script>",
-    "</head>",
-    "<body>",
-    "<div id=\"app\">",
-    "${6:内容}",
-    "</div>",
-    "</body>",
-    "</html>",
-    ""
-  ],
-  "description": "手机版基本网页"
-  },
+	// 手机版基本网页
+	"user_mob": {
+	"scope": "html,go,rust,python",
+	"prefix": "mob",
+	"body": [
+		"<!DOCTYPE html>",
+		"<html lang=\"zh-CN\">",
+		"<head>",
+		"<meta charset=\"utf-8\">",
+		"<title>${1:标题}</title>",
+		"<meta name=\"keywords\" content=\"${2:关键字1,关键字2}\">",
+		"<meta name=\"description\" content=\"${3:描述}\">",
+		"<meta name=\"viewport\" content=\"width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover\">",
+		"<meta name=\"format-detection\" content=\"telephone=no,email=no,address=no\">",
+		"<link rel=\"stylesheet\" href=\"${4:./css/global.css}\">",
+		"<script src=\"${5:./js/global.js}\"></script>",
+		"</head>",
+		"<body>",
+		"<div id=\"app\">",
+		"${6:内容}",
+		"</div>",
+		"</body>",
+		"</html>",
+		""
+	],
+	"description": "手机版基本网页"
+	},
 
-  // 电脑版基本网页
-  "user_web": {
-  "scope": "html,go,rust,python",
-  "prefix": "web",
-  "body": [
-    "<!DOCTYPE html>",
-    "<html lang=\"zh-CN\">",
-    "<head>",
-    "<meta charset=\"utf-8\">",
-    "<meta http-equiv=\"Cache-Control\" content=\"no-transform\">",
-    "<title>${1:标题}</title>",
-    "<meta name=\"keywords\" content=\"${2:关键字1,关键字2}\">",
-    "<meta name=\"description\" content=\"${3:描述}\">",
-    "<link rel=\"stylesheet\" href=\"${4:./css/global.css}\">",
-    "<script src=\"${5:./js/global.js}\"></script>",
-    "</head>",
-    "<body>",
-    "<div id=\"app\">",
-    "${6:内容}",
-    "</div>",
-    "</body>",
-    "</html>",
-    ""
-  ],
-  "description": "电脑版基本网页"
-  },
+	// 电脑版基本网页
+	"user_web": {
+	"scope": "html,go,rust,python",
+	"prefix": "web",
+	"body": [
+		"<!DOCTYPE html>",
+		"<html lang=\"zh-CN\">",
+		"<head>",
+		"<meta charset=\"utf-8\">",
+		"<meta http-equiv=\"Cache-Control\" content=\"no-transform\">",
+		"<title>${1:标题}</title>",
+		"<meta name=\"keywords\" content=\"${2:关键字1,关键字2}\">",
+		"<meta name=\"description\" content=\"${3:描述}\">",
+		"<link rel=\"stylesheet\" href=\"${4:./css/global.css}\">",
+		"<script src=\"${5:./js/global.js}\"></script>",
+		"</head>",
+		"<body>",
+		"<div id=\"app\">",
+		"${6:内容}",
+		"</div>",
+		"</body>",
+		"</html>",
+		""
+	],
+	"description": "电脑版基本网页"
+	},
 
-  // 通用模块化
-  "user_umd": {
-  "scope": "javascript",
-  "prefix": "umd",
-  "body": [
-    ";(function (root, factory) {",
-    "  if (typeof module === 'object' && module && typeof module.exports === 'object'){  //CommonJS(NodeJS)",
-    "    module.exports = factory();",
-    "  } else if (typeof define === 'function' && (define.amd || define.cmd)){  //AMD or CMD",
-    "    define(factory);",
-    "  } else {  //browser",
-    "    root.${1:pluginName} = factory();",
-    "  }",
-    "})(typeof window !== 'undefined' ? window : this, function () {",
-    "    ${2://code here}",
-    "});"
-  ],
-  "description": "通用模块化"
-  },
+	// 通用模块化
+	"user_umd": {
+	"scope": "javascript",
+	"prefix": "umd",
+	"body": [
+		";(function (root, factory) {",
+		"  if (typeof module === 'object' && module && typeof module.exports === 'object'){  //CommonJS(NodeJS)",
+		"    module.exports = factory();",
+		"  } else if (typeof define === 'function' && (define.amd || define.cmd)){  //AMD or CMD",
+		"    define(factory);",
+		"  } else {  //browser",
+		"    root.${1:pluginName} = factory();",
+		"  }",
+		"})(typeof window !== 'undefined' ? window : this, function () {",
+		"    ${2://code here}",
+		"});"
+	],
+	"description": "通用模块化"
+	},
 
-  // Node头部
-  "user_nodeheader": {
-  "scope": "javascript",
-  "prefix": "nodeheader",
-  "body": [
-    "'use strict';",
-    "",
-    "",
-    ""
-  ],
-  "description": "Node头部"
-  },
+	// Node头部
+	"user_nodeheader": {
+	"scope": "javascript",
+	"prefix": "nodeheader",
+	"body": [
+		"'use strict';",
+		"",
+		"",
+		""
+	],
+	"description": "Node头部"
+	},
 
-  // PHP公司头部
-  "user_phpcom": {
-  "scope": "php",
-  "prefix": "phpcom",
-  "body": [
-    "<?php",
-    "/**",
-    " * ${1:说明文字}",
-    " * ",
-    " * @author Yumin Wu <https://wuyumin.com>",
-    " * @link https://089858.com",
-    " * @copyright Copyright (c) 089858.com",
-    " */",
-    "",
-    ""
-  ],
-  "description": "PHP公司头部"
-  },
+	// PHP头部
+	"user_phpheader": {
+	"scope": "php",
+	"prefix": "phpheader",
+	"body": [
+		"<?php",
+		"/**",
+		" * ${1:说明文字}",
+		" * ",
+		" * @author Yumin",
+		" * @copyright Copyright (c) Yumin",
+		" */",
+		"",
+		""
+	],
+	"description": "PHP个人头部"
+	},
 
-  // PHP个人头部
-  "user_phpheader": {
-  "scope": "php",
-  "prefix": "phpheader",
-  "body": [
-    "<?php",
-    "/**",
-    " * ${1:说明文字}",
-    " * ",
-    " * @author Yumin Wu <https://wuyumin.com>",
-    " * @link https://wuyumin.com",
-    " * @copyright Copyright (c) wuyumin.com",
-    " */",
-    "",
-    ""
-  ],
-  "description": "PHP个人头部"
-  },
+	// PHP命令行
+	"user_phpshell": {
+	"scope": "php",
+	"prefix": "phpshell",
+	"body": [
+		"#!/usr/bin/env php",
+		"<?php",
+		""
+	],
+	"description": "PHP命令行"
+	},
 
-  // PHP命令行
-  "user_phpshell": {
-  "scope": "php",
-  "prefix": "phpshell",
-  "body": [
-    "#!/usr/bin/env php",
-    "<?php",
-    ""
-  ],
-  "description": "PHP命令行"
-  },
+	// Python头部
+	"user_pyheader": {
+	"scope": "python",
+	"prefix": "pyheader",
+	"body": [
+		"#!/usr/bin/env python",
+		"# coding=utf-8",
+		"",
+		"",
+		""
+	],
+	"description": "Python头部"
+	},
 
-  // Python头部
-  "user_pyheader": {
-  "scope": "python",
-  "prefix": "pyheader",
-  "body": [
-    "#!/usr/bin/env python",
-    "# coding=utf-8",
-    "",
-    "",
-    ""
-  ],
-  "description": "Python头部"
-  },
+	// Python2头部
+	"user_py2header": {
+	"scope": "python",
+	"prefix": "py2header",
+	"body": [
+		"#!/usr/bin/env python2",
+		"# coding=utf-8",
+		"",
+		"",
+		""
+	],
+	"description": "Python2头部"
+	},
 
-  // Python2头部
-  "user_py2header": {
-  "scope": "python",
-  "prefix": "py2header",
-  "body": [
-    "#!/usr/bin/env python2",
-    "# coding=utf-8",
-    "",
-    "",
-    ""
-  ],
-  "description": "Python2头部"
-  },
+	// Python3头部
+	"user_py3header": {
+	"scope": "python",
+	"prefix": "py3header",
+	"body": [
+		"#!/usr/bin/env python3",
+		"",
+		"",
+		""
+	],
+	"description": "Python3头部"
+	},
 
-  // Python3头部
-  "user_py3header": {
-  "scope": "python",
-  "prefix": "py3header",
-  "body": [
-    "#!/usr/bin/env python3",
-    "",
-    "",
-    ""
-  ],
-  "description": "Python3头部"
-  },
+	// bash shell 脚本
+	"user_shellbash": {
+	"scope": "shellscript",
+	"prefix": "shellbash",
+	"body": [
+		"#!/usr/bin/env bash",
+		"set -e",
+		"",
+		""
+	],
+	"description": "bash shell 脚本"
+	},
 
-  // bash shell 脚本
-  "user_shellbash": {
-  "scope": "shellscript",
-  "prefix": "shellbash",
-  "body": [
-    "#!/usr/bin/env bash",
-    "set -e",
-    "",
-    ""
-  ],
-  "description": "bash shell 脚本"
-  },
+	// sh shell 脚本
+	"user_shellsh": {
+	"scope": "shellscript",
+	"prefix": "shellsh",
+	"body": [
+		"#!/usr/bin/env sh",
+		"set -e",
+		"",
+		""
+	],
+	"description": "sh shell 脚本"
+	},
 
-  // sh shell 脚本
-  "user_shellsh": {
-  "scope": "shellscript",
-  "prefix": "shellsh",
-  "body": [
-    "#!/usr/bin/env sh",
-    "set -e",
-    "",
-    ""
-  ],
-  "description": "sh shell 脚本"
-  },
+	// go main 代码
+	"user_gomain": {
+	"scope": "go",
+	"prefix": "gomain",
+	"body": [
+		"package main",
+		"",
+		"import (",
+		"\t\"fmt\"",
+		")",
+		"",
+		"func main() {",
+		"\tfmt.Println(\"${1:内容}\")",
+		"}",
+		"",
+	],
+	"description": "go main 代码"
+	},
 
-  // go main 代码
-  "user_gomain": {
-  "scope": "go",
-  "prefix": "gomain",
-  "body": [
-    "package main",
-    "",
-    "import (",
-    "\t\"fmt\"",
-    ")",
-    "",
-    "func main() {",
-    "\tfmt.Println(\"${1:内容}\")",
-    "}",
-    "",
-  ],
-  "description": "go main 代码"
-  },
+	// rust main 代码
+	"user_rustmain": {
+	"scope": "rust",
+	"prefix": "rustmain",
+	"body": [
+		"fn main() {",
+		"    println!(\"${1:内容}\");",
+		"}",
+		"",
+	],
+	"description": "rust main 代码"
+	},
 
-  // rust main 代码
-  "user_rustmain": {
-  "scope": "rust",
-  "prefix": "rustmain",
-  "body": [
-    "fn main() {",
-    "    println!(\"${1:内容}\");",
-    "}",
-    "",
-  ],
-  "description": "rust main 代码"
-  },
-
-  // c header 代码
-  "user_cheader": {
+	// c header 代码
+	"user_cheader": {
   "scope": "c",
   "prefix": "cheader",
   "body": [
@@ -321,8 +301,8 @@
   "description": "c header 代码"
   },
 
-  // c main 代码
-  "user_cmain": {
+	// c main 代码
+	"user_cmain": {
   "scope": "c",
   "prefix": "cmain",
   "body": [
@@ -339,8 +319,8 @@
   "description": "c main 代码"
   },
 
-  // cpp header 代码
-  "user_cppheader": {
+	// cpp header 代码
+	"user_cppheader": {
   "scope": "cpp",
   "prefix": "cppheader",
   "body": [
@@ -411,11 +391,15 @@
       "  </div>",
       "</template>",
       "",
-      "<script setup>",
-      "// <script setup lang=\"ts\">",
+      "<script setup lang=\"ts\">",
+      "// <script setup>",
       "// <script setup lang=\"tsx\">",
       "",
-      "import { defineProps, defineEmits } from 'vue';",
+      "import { defineOptions, defineProps, defineEmits } from 'vue';",
+      "",
+      "defineOptions({",
+      "  name: ''",
+      "})",
       "",
       "// const props = defineProps(['name']);",
       "const props = defineProps({",
