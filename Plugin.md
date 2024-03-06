@@ -228,11 +228,11 @@ windows系统直接使用Microsoft C++就可以了
 
 ### Volar(Vue3 插件)
 
-- 名称: Vue Language Features (Volar)
+- 名称: Vue - Official(曾用名Vue Language Features (Volar))
 - 扩展标识符: Vue.volar
 - 作用: Vue3插件
 
-TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vue.vscode-typescript-vue-plugin)  
+~~TypeScript可能还需要配合`TypeScript Vue Plugin (Volar)`(扩展标识符Vue.vscode-typescript-vue-plugin)~~  
 
 ### Vetur(Vue2 插件)
 
