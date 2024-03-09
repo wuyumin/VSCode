@@ -192,7 +192,7 @@ windows系统直接使用Microsoft C++就可以了
 
 - 名称: PHP Intelephense
 - 扩展标识符: bmewburn.vscode-intelephense-client
-- 作用: PHP语言插件
+- 作用: PHP语言插件，PHP代码格式化
 
 ### dart语言/flutter插件
 
