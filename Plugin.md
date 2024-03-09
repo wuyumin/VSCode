@@ -190,6 +190,11 @@ windows系统直接使用Microsoft C++就可以了
 
 ### PHP语言插件
 
+- 名称: PHP
+- 扩展标识符: DEVSENSE.phptools-vscode
+- 作用: PHP语言插件，PHP代码格式化等
+
+注: 下面PHP Intelephense可以不用了(建议替换成上面功能更好的)。
 - 名称: PHP Intelephense
 - 扩展标识符: bmewburn.vscode-intelephense-client
 - 作用: PHP语言插件，PHP代码格式化
