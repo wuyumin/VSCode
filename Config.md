@@ -56,6 +56,7 @@
     "**/Cargo.lock": true, // rust依赖自动文件
     "**/target": true // rust编译生成
   },
+  "search.useIgnoreFiles": false,
 
   // 配置语言的文件关联(自定义文件扩展名映射)
   "files.associations": {
