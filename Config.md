@@ -176,6 +176,9 @@
   "editor.defaultFormatter": "xaver.clang-format",
   "editor.formatOnSave": true
 },
+"[shellscript]": {
+  "editor.formatOnSave": true
+},
 ```
 
 ### go语言设置
