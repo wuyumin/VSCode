@@ -251,6 +251,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: sdras.vue-vscode-snippets
 - 作用: Vue代码片段
 
+### i18n Ally
+
+- 名称: i18n Ally
+- 扩展标识符: Lokalise.i18n-ally
+- 作用: 国际化插件
+
 ### Tailwind CSS IntelliSense
 
 - 名称: Tailwind CSS IntelliSense
