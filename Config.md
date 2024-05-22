@@ -37,6 +37,7 @@
   "explorer.autoReveal": false, // 资源管理器打开文件时自动显示并选择
   "explorer.compactFolders": false, // 不使用紧凑显示文件夹
   "terminal.integrated.enablePersistentSessions": false, // 是否保持上次的终端对话
+  "window.restoreWindows": "none", // 启动后是否自动打开上次使用的窗口
   "window.commandCenter": false, // 隐藏命令中心
   // 显示:排除的文件和文件夹
   "files.exclude": {
