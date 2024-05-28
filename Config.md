@@ -236,13 +236,13 @@
 ### rust语言设置
 
 ```js
+"rust-analyzer.showUnlinkedFileNotification": false,
 "rust-analyzer.inlayHints.typeHints.enable": false,
 "rust-analyzer.inlayHints.parameterHints.enable": false,
 "rust-analyzer.inlayHints.chainingHints.enable": false,
 "rust-analyzer.inlayHints.closingBraceHints.enable": false,
 "rust-analyzer.cargo.buildScripts.enable": true,
 "rust-analyzer.lens.enable": false,
-"rust-analyzer.showUnlinkedFileNotification": false,
 ```
 
 ## 键盘快捷方式设置
