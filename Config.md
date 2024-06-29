@@ -25,6 +25,7 @@
   "update.mode": "none", // 取消自动更新VSCode
   "extensions.autoUpdate": false, // 取消自动更新扩展
   "extensions.autoCheckUpdates": false, // 取消扩展更新检查
+  "remote.autoForwardPorts": false, // 取消端口转发
   "security.workspace.trust.enabled": false, // 工作区信任处理
   "workbench.colorTheme": "Visual Studio Dark", // 色彩主题
   "workbench.startupEditor": "none", // 编辑器启动后默认显示
