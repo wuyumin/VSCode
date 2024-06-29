@@ -2,7 +2,8 @@
 
 有些插件安装后可能需要重启才生效。  
 插件一般存放在: 用户目录的.vscode/extensions/扩展标识符前缀的文件夹里。  
-`xxx Extension Pack`一般是工具包组合(多个插件组合)。如`C/C++ Extension Pack`是C/C++的工具包组合。
+`xxx Extension Pack`一般是工具包组合(多个插件组合)。如`C/C++ Extension Pack`是C/C++的工具包组合。  
+离线安装插件`code --install-extension xxx.vsix`  
 
 ### 简体中文语言插件
 
