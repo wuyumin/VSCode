@@ -307,6 +307,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: dotjoshjohnson.xml
 - 作用: XML插件
 
+### Rainbow CSV
+
+- 名称: Rainbow CSV
+- 扩展标识符: mechatroner.rainbow-csv
+- 作用: csv文件插件
+
 ### ~~Live Server~~
 
 - 名称: Live Server
