@@ -140,9 +140,13 @@ vi TODO.md
 - 扩展标识符: rust-lang.rust-analyzer
 - 作用: Rust语言插件
 
-- 名称: crates
+- ~~名称: crates~~(升级到了Dependi)
 - 扩展标识符: serayuzgur.crates
 - 作用: Rust包管理
+
+- 名称: Dependi
+- 扩展标识符: fill-labs.dependi
+- 作用: Rust包管理(也支持Go/JavaScript/TypeScript/Python包管理)
 
 - 名称: CodeLLDB
 - 扩展标识符: vadimcn.vscode-lldb
@@ -159,7 +163,7 @@ windows系统直接使用Microsoft C++就可以了
 
 ### JavaScript语言插件
 
-- 名称: packages
+- ~~名称: packages~~(使用Dependi替代)
 - 扩展标识符: ririd.packages
 - 作用: npm包管理
 
