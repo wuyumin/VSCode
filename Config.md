@@ -6,12 +6,13 @@
 `一般可通过菜单上的设置来调整`。 
 
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
-```js
+```json
 {
   // "http.proxy": "http://127.0.0.1:7890", // 设置代理
   // "http.proxyStrictSSL": false, // 验证证书
   // "editor.formatOnSave": true, // 保存时自动格式化
 
+  "files.encoding": "utf8", // 字符集编码 utf8/gbk
   "editor.detectIndentation": false, // 配置tabSize时可能需要这个
   "editor.tabSize": 2, // 一个tab等于多少个空格
   // "editor.insertSpaces": false, // 按tab插入空格
@@ -70,7 +71,7 @@
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
-```js
+```json
 {
 	// 单行注释
 
@@ -96,7 +97,7 @@
 ### windows系统设置命令终端
 
 终端配置(新版)
-```js
+```json
   "terminal.integrated.profiles.windows": {
     // Command Prompt
     "Command Prompt": {
@@ -118,7 +119,7 @@
 ```
 
 终端配置(旧版)
-```js
+```json
   // Command Prompt
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   // PowerShell
@@ -129,13 +130,13 @@
 
 ### prettier格式化设置
 
-```js
+```json
 "prettier.tabWidth": 2,
 ```
 
 ### 自定义格式化[各语言分别设置(多语言一起设置版本1.63+)]
 
-```js
+```json
 "[html]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
@@ -185,7 +186,7 @@
 
 ### go语言设置
 
-```js
+```json
 // "go.toolsEnvVars": {
 //   "GOPROXY": "https://goproxy.cn,direct"
 // },
@@ -221,7 +222,7 @@
 
 ### python语言设置
 
-```js
+```json
 "python.defaultInterpreterPath": "D:\\Python\\miniconda\\envs\\pythonVenv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
 //"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
@@ -236,7 +237,7 @@
 
 ### rust语言设置
 
-```js
+```json
 "rust-analyzer.showUnlinkedFileNotification": false,
 "rust-analyzer.inlayHints.typeHints.enable": false,
 "rust-analyzer.inlayHints.parameterHints.enable": false,
@@ -249,7 +250,7 @@
 ## 键盘快捷方式设置
 
 与设置项菜单同一级的`键盘快捷方式`进行配置
-```js
+```json
 // 将键绑定放在此文件中以覆盖默认值
 [
   {
