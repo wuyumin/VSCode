@@ -46,6 +46,7 @@
     // "**/.git": false, // 临时关闭排除
     "**/.DS_Store": false,
     "**/.idea": true, // JetBrains系列软件配置文件
+    "**/__pycache__": true, // python字节码目录
   },
   // 搜索:排除的文件和文件夹
   "search.exclude": {
@@ -57,7 +58,8 @@
     "**/go.sum": true, // go依赖自动文件
     "**/go.work.sum": true, // go工作区自动文件
     "**/Cargo.lock": true, // rust依赖自动文件
-    "**/target": true // rust编译生成
+    "**/target": true, // rust编译生成
+    "**/__pycache__": true, // python字节码目录
   },
   "search.useIgnoreFiles": true,
 
