@@ -9,3 +9,4 @@ VSCode 官方网站及下载：<https://code.visualstudio.com>
 - [VSCode 技巧](Skill.md)
 - [VSCode 常用插件](Plugin.md)
 - Emmet技巧
+- 在线VSCode(VSCode服务器): VSCode的web版(运行yarn web) 或 <https://github.com/coder/code-server>
