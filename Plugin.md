@@ -162,6 +162,10 @@ windows系统直接使用Microsoft C++就可以了
 - 注: 还要安装一些Go第三方包  
   插件参照 <https://github.com/Microsoft/vscode-go/blob/master/src/goInstallTools.ts> allTools变量
 
+- 名称: goctl
+- 扩展标识符: xiaoxin-technology.goctl
+- 作用: go-zero框架工具
+
 ### JavaScript语言插件
 
 - ~~名称: packages~~(使用Dependi替代)
