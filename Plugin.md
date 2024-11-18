@@ -322,6 +322,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: mechatroner.rainbow-csv
 - 作用: csv文件插件
 
+### parquet-viewer
+
+- 名称: parquet-viewer
+- 扩展标识符: dvirtz.parquet-viewer
+- 作用: parquet文件插件
+
 ### ~~Live Server~~
 
 - 名称: Live Server
