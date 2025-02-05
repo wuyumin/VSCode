@@ -373,6 +373,22 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: Continue.continue
 - 作用: AI编程工具
 
+设置文件`~/.continue/config.json`
+```json
+{
+  "models": [
+    {
+      "provider": "openai",
+      "apiBase": "http://localhost:11434/v1",
+      "apiKey": "empty",
+      "title": "兼容openai接口",
+      "model": "qwen2.5-instruct:7b",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses."
+    }
+  ]
+}
+```
+
 ### typst排版工具
 
 - 名称: Typst LSP
