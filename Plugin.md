@@ -396,6 +396,14 @@ windows系统直接使用Microsoft C++就可以了
 }
 ```
 
+### 通义灵码
+
+- 名称: TONGYI Lingma
+- 扩展标识符: Alibaba-Cloud.tongyi-lingma
+- 作用: 通义灵码AI编程工具
+
+注: macOS10.15需要安装1.3.x版本(如v1.3.13)  
+
 ### typst排版工具
 
 - 名称: Typst LSP
