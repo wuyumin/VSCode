@@ -367,6 +367,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: esbenp.prettier-vscode
 - 作用: 代码格式化
 
+### Continue
+
+- 名称: Continue
+- 扩展标识符: Continue.continue
+- 作用: AI编程工具
+
 ### typst排版工具
 
 - 名称: Typst LSP
