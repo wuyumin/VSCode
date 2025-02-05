@@ -378,14 +378,21 @@ windows系统直接使用Microsoft C++就可以了
 {
   "models": [
     {
+      "title": "openai兼容chat",
       "provider": "openai",
+      "model": "qwen2.5-instruct:7b",
       "apiBase": "http://localhost:11434/v1",
       "apiKey": "empty",
-      "title": "兼容openai接口",
-      "model": "qwen2.5-instruct:7b",
       "systemMessage": "You are an expert software developer. You give helpful and concise responses."
     }
-  ]
+  ],
+  "tabAutocompleteModel": {
+    "title": "openai兼容coder",
+    "provider": "openai",
+    "model": "qwen2.5-coder-instruct:7b",
+    "apiBase": "http://localhost:11434/v1",
+    "apiKey": "empty"
+  }
 }
 ```
 
