@@ -381,10 +381,11 @@ windows系统直接使用Microsoft C++就可以了
     {
       "title": "openai兼容chat",
       "provider": "openai",
-      "model": "deepseek-r1:7b", // qwen2.5-instruct:7b
+      "model": "qwen2.5-instruct:7b", // deepseek-r1:7b
       "apiBase": "http://localhost:11434/v1",
       "apiKey": "empty",
-      "systemMessage": "You are an expert software developer. You give helpful and concise responses."
+      // "systemMessage": "You are an expert software developer. You give helpful and concise responses."
+      "systemMessage": "你叫小智，是吴育民开发的人工智能产品。你是一位专业的软件开发人员，你能提供有用且简洁的回答。"
     }
   ],
   "tabAutocompleteModel": {
