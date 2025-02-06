@@ -376,11 +376,12 @@ windows系统直接使用Microsoft C++就可以了
 设置文件`~/.continue/config.json`
 ```json
 {
+  // 注释
   "models": [
     {
       "title": "openai兼容chat",
       "provider": "openai",
-      "model": "qwen2.5-instruct:7b",
+      "model": "deepseek-r1:7b", // qwen2.5-instruct:7b
       "apiBase": "http://localhost:11434/v1",
       "apiKey": "empty",
       "systemMessage": "You are an expert software developer. You give helpful and concise responses."
