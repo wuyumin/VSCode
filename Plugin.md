@@ -398,6 +398,12 @@ windows系统直接使用Microsoft C++就可以了
 }
 ```
 
+### Cline
+
+- 名称: Cline
+- 扩展标识符: saoudrizwan.claude-dev
+- 作用: AI编程工具
+
 ### 通义灵码
 
 - 名称: TONGYI Lingma
