@@ -232,8 +232,7 @@
 //"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
 "python.terminal.activateEnvironment": true,
-"ruff.format.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
-"ruff.lint.args": ["--config=C:\\Users\\user\\.config\\pyproject.toml"],
+"ruff.configuration": "C:\\Users\\user\\.config\\pyproject.toml",
 // "python.formatting.provider": "yapf", // 需要安装pip3 install yapf(可能需要超级管理员权限)
 // "python.formatting.yapfArgs": [
 //   "--style={indent_width:2, spaces_before_comment:1, column_limit:120}"
