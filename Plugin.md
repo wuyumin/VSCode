@@ -5,6 +5,7 @@
 `xxx Extension Pack`一般是工具包组合(多个插件组合)。如`C/C++ Extension Pack`是C/C++的工具包组合。  
 查看已安装的插件`code --list-extensions`  
 命令行离线安装插件`code --install-extension 扩展id或.vsix本地路径`  
+插件下载链接`https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-vscode-remote(扩展标识符的用户)/vsextensions/remote-ssh(扩展标识符的插件名)/0.119.2025030615(版本)/vspackage`  
 
 ### 简体中文语言插件
 
