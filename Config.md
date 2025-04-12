@@ -5,7 +5,7 @@
 配置一般分为`用户设置`、`工作区设置`、`项目文件夹设置`。  
 `一般可通过菜单上的设置来调整`。 
 
-`用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json  
+`用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json macOS系统是存放在用户目录下的Library/Application Support/Code/User/settings.json  
 ```json
 {
   // "http.proxy": "http://127.0.0.1:7890", // 设置代理
