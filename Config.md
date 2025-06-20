@@ -189,6 +189,18 @@
 },
 ```
 
+### rust语言设置
+
+```json
+"rust-analyzer.showUnlinkedFileNotification": false,
+"rust-analyzer.inlayHints.typeHints.enable": false,
+"rust-analyzer.inlayHints.parameterHints.enable": false,
+"rust-analyzer.inlayHints.chainingHints.enable": false,
+"rust-analyzer.inlayHints.closingBraceHints.enable": false,
+"rust-analyzer.cargo.buildScripts.enable": true,
+"rust-analyzer.lens.enable": false,
+```
+
 ### go语言设置
 
 ```json
@@ -239,21 +251,15 @@
 // ],
 ```
 
-### rust语言设置
+### Zig语言设置
 
 ```json
-"rust-analyzer.showUnlinkedFileNotification": false,
-"rust-analyzer.inlayHints.typeHints.enable": false,
-"rust-analyzer.inlayHints.parameterHints.enable": false,
-"rust-analyzer.inlayHints.chainingHints.enable": false,
-"rust-analyzer.inlayHints.closingBraceHints.enable": false,
-"rust-analyzer.cargo.buildScripts.enable": true,
-"rust-analyzer.lens.enable": false,
+"zig.zls.enabled": "on",
 ```
 
 ## 键盘快捷方式设置
 
-与设置项菜单同一级的`键盘快捷方式`进行配置
+与设置项菜单同一级的`键盘快捷方式`进行配置 `keybindings.json`文件
 ```json
 // 将键绑定放在此文件中以覆盖默认值
 [

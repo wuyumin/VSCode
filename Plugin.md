@@ -199,6 +199,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: xaver.clang-format
 - 作用: 代码格式化
 
+### Zig语言插件
+
+- 名称: Zig Language
+- 扩展标识符: ziglang.vscode-zig
+- 作用: Zig语言插件
+
 ### PHP语言插件
 
 - 名称: PHP
@@ -230,11 +236,11 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: koihik.vscode-lua-format
 - 作用: lua格式化工具
 
-### Deno语言插件
+### Deno运行时插件
 
 - 名称: Deno
 - 扩展标识符: denoland.vscode-deno
-- 作用: Deno语言插件
+- 作用: Deno运行时插件
 
 ### shell脚本插件
 
