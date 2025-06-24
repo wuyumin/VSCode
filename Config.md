@@ -255,6 +255,10 @@
 
 ```json
 "zig.zls.enabled": "on",
+"zig.zls.path": "D:\\bin\\zls.exe",
+"zig.zls.inlayHintsShowVariableTypeHints": false,
+"zig.zls.inlayHintsShowParameterName": false,
+"zig.zls.enableArgumentPlaceholders": false,
 ```
 
 ## 键盘快捷方式设置
