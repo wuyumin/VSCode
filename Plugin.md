@@ -248,6 +248,12 @@ windows系统直接使用Microsoft C++就可以了
 - 扩展标识符: foxundermoon.shell-format
 - 作用: shell脚本格式化工具
 
+### SQLite查看
+
+- 名称: SQLite Viewer
+- 扩展标识符: qwtel.sqlite-viewer
+- 作用: SQLite查看
+
 ### Volar(Vue3 插件)
 
 - 名称: Vue - Official(曾用名Vue Language Features (Volar))
