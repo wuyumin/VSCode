@@ -258,6 +258,7 @@
 "zig.zls.path": "D:\\bin\\zls.exe",
 "zig.zls.inlayHintsShowVariableTypeHints": false,
 "zig.zls.inlayHintsShowParameterName": false,
+"zig.zls.inlayHintsShowStructLiteralFieldType": false,
 "zig.zls.enableArgumentPlaceholders": false,
 ```
 
