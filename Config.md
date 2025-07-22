@@ -71,6 +71,7 @@
 
   // Remote-SSH配置
   "remote.SSH.configFile": "E:\\ConfigPath\\remote_ssh.ini", // 一般是~/.ssh/config
+  "remote.SSH.connectTimeout": 15,
 
 }
 ```
