@@ -6,7 +6,7 @@
 `一般可通过菜单上的设置来调整`。 
 
 `用户设置：`配置文件存放在用户目录下。比如windows系统是存放在用户目录下的AppData\Roaming\Code\User\settings.json macOS系统是存放在用户目录下的Library/Application Support/Code/User/settings.json  
-```json
+```jsonc
 {
   // "http.proxy": "http://127.0.0.1:7890", // 设置代理
   // "http.proxyStrictSSL": false, // 验证证书
@@ -77,7 +77,7 @@
 ```
 
 `工作区设置：`你的工作区配置文件(后缀为.code-workspace文件)的settings项里。
-```json
+```jsonc
 {
 	// 单行注释
 
@@ -103,7 +103,7 @@
 ### windows系统设置命令终端
 
 终端配置(新版)
-```json
+```jsonc
   "terminal.integrated.profiles.windows": {
     // Command Prompt
     "Command Prompt": {
@@ -125,7 +125,7 @@
 ```
 
 终端配置(旧版)
-```json
+```jsonc
   // Command Prompt
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   // PowerShell
@@ -136,13 +136,13 @@
 
 ### prettier格式化设置
 
-```json
+```jsonc
 "prettier.tabWidth": 2,
 ```
 
 ### 自定义格式化[各语言分别设置(多语言一起设置版本1.63+)]
 
-```json
+```jsonc
 "[html]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
@@ -192,7 +192,7 @@
 
 ### rust语言设置
 
-```json
+```jsonc
 "rust-analyzer.showUnlinkedFileNotification": false,
 "rust-analyzer.inlayHints.typeHints.enable": false,
 "rust-analyzer.inlayHints.parameterHints.enable": false,
@@ -204,7 +204,7 @@
 
 ### go语言设置
 
-```json
+```jsonc
 // "go.toolsEnvVars": {
 //   "GOPROXY": "https://goproxy.cn,direct"
 // },
@@ -240,7 +240,7 @@
 
 ### python语言设置
 
-```json
+```jsonc
 "python.defaultInterpreterPath": "D:\\Python\\miniconda\\envs\\pythonVenv\\bin\\python3.exe", // 加载虚拟环境(填写虚拟环境python二进制文件绝对路径) 旧版本配置项python.pythonPath
 //"python.defaultInterpreterPath": "D:\\Python\\venv\\Scripts\\python.exe",
 "python.terminal.activateEnvInCurrentTerminal": false,
@@ -254,7 +254,7 @@
 
 ### Zig语言设置
 
-```json
+```jsonc
 "zig.zls.enabled": "on",
 "zig.zls.path": "D:\\bin\\zls.exe",
 "zig.zls.inlayHintsShowVariableTypeHints": false,
@@ -266,7 +266,7 @@
 ## 键盘快捷方式设置
 
 与设置项菜单同一级的`键盘快捷方式`进行配置 `keybindings.json`文件
-```json
+```jsonc
 // 将键绑定放在此文件中以覆盖默认值
 [
   {
